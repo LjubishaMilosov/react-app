@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="passing parameters">
-      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I expect to be able to see contacts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/849893cca1d34a39b233a9fbc5ea0ad4.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/c25e9f9939311caa72191e4d189caaca.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/d027fa8917795898f46539d4552e48e9.webm" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="video &amp; screenshots on failure">
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/11f4f33344b8164fd93f01bacfbeb05a.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/35abd0a8f791c7ae9f6a002c49a40a86.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/be816d05c6b8e43e4cfb6d27aa52c743.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/env/parseEnv.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/step-definitions/setup/world.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/features/home-page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/home-page.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/hooks/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/hooks/hooks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/hooks/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/setup/hooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/navigation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/navigation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +76,14 @@
       </list>
     </option>
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -210,7 +214,7 @@
       <workItem from="1711549957119" duration="99000" />
       <workItem from="1711550078544" duration="4186000" />
       <workItem from="1711554299178" duration="3883000" />
-      <workItem from="1711568780074" duration="2184000" />
+      <workItem from="1711568780074" duration="8623000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -260,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711565661241</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="video &amp; screenshots on failure">
+      <option name="closed" value="true" />
+      <created>1711572679894</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711572679894</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -317,7 +329,8 @@
     <MESSAGE value="simple automation framework setup" />
     <MESSAGE value="scenario tags" />
     <MESSAGE value="passing parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="passing parameters" />
+    <MESSAGE value="video &amp; screenshots on failure" />
+    <option name="LAST_COMMIT_MESSAGE" value="video &amp; screenshots on failure" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
