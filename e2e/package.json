@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "precucumber": "rimraf reports && mkdir reports && echo {} > reports/report.json",
     "transpile": "rimraf dist && babel --extensions .ts --out-dir dist src",
     "cucumber-compile": "yarn transpile && cucumber-js",
-    "cucumber": "COMMON_CONFIG_FILE=env/common.env yarn cucumber-compile"
+    "cucumber": "yarn cucumber-compile",
+    "postcucumber": "ts-node ./src/reporter/cucumber-report.ts"
   },
   "author": "Ljubisha Milosov",
   "license": "ISC",
@@ -21,6 +23,7 @@
     "typescript": "^5.4.3"
   },
   "dependencies": {
+    "cucumber-html-reporter": "^7.1.1",
     "ts-node": "^10.9.2"
   }
 }

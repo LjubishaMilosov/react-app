@@ -5,26 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="ENV file for env variable management">
-      <change afterPath="$PROJECT_DIR$/e2e/env/common.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/dist/reporter/cucumber-report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/run-tests.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/run_tests.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/reporter/cucumber-report.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/env/common.env" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/env/common.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I expect to be able to see contacts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/11f4f33344b8164fd93f01bacfbeb05a.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/1a7731ac0c2c0d8f6dca4f3a45964a33.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/35abd0a8f791c7ae9f6a002c49a40a86.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/35de913d20ff8b26e6e3f59064be0a55.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/472dbeb9247be822fb55f63ee25dc041.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/849893cca1d34a39b233a9fbc5ea0ad4.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/94ee884e4156fb884a2128cd2f072f5e.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/9d0df74d07fb9c4e9026341a766451ee.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/a052dc4e1f99073c7f8ec1967053ee78.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/a2f2d045fbfaafd7503f44e131b9fdd2.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/be816d05c6b8e43e4cfb6d27aa52c743.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/c25e9f9939311caa72191e4d189caaca.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/d027fa8917795898f46539d4552e48e9.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/ed7088baf049c341ccecb089cdda8ab2.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/setup/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/setup/hooks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/yarn.lock" afterDir="false" />
     </list>
@@ -247,7 +237,7 @@
       <workItem from="1711550078544" duration="4186000" />
       <workItem from="1711554299178" duration="3883000" />
       <workItem from="1711568780074" duration="19321000" />
-      <workItem from="1711638794332" duration="5340000" />
+      <workItem from="1711638794332" duration="10706000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -321,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711655475663</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ENV file for env variable management">
+      <option name="closed" value="true" />
+      <created>1711714598999</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711714598999</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
