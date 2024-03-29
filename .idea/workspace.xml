@@ -4,28 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="cucumber world">
-      <change afterPath="$PROJECT_DIR$/e2e/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/cucumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/dist/env/parseEnv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-visibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/hooks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/world.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/1a7731ac0c2c0d8f6dca4f3a45964a33.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/35de913d20ff8b26e6e3f59064be0a55.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/472dbeb9247be822fb55f63ee25dc041.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/94ee884e4156fb884a2128cd2f072f5e.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/9d0df74d07fb9c4e9026341a766451ee.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/a052dc4e1f99073c7f8ec1967053ee78.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/a2f2d045fbfaafd7503f44e131b9fdd2.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/ed7088baf049c341ccecb089cdda8ab2.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/index.ts" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="ENV file for env variable management">
+      <change afterPath="$PROJECT_DIR$/e2e/env/common.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I expect to be able to see contacts.png" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I expect to be able to see contacts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I expect to be able to see contacts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/11f4f33344b8164fd93f01bacfbeb05a.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/1a7731ac0c2c0d8f6dca4f3a45964a33.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/35abd0a8f791c7ae9f6a002c49a40a86.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/35de913d20ff8b26e6e3f59064be0a55.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/472dbeb9247be822fb55f63ee25dc041.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/849893cca1d34a39b233a9fbc5ea0ad4.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/94ee884e4156fb884a2128cd2f072f5e.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/9d0df74d07fb9c4e9026341a766451ee.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/a052dc4e1f99073c7f8ec1967053ee78.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/a2f2d045fbfaafd7503f44e131b9fdd2.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/be816d05c6b8e43e4cfb6d27aa52c743.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/c25e9f9939311caa72191e4d189caaca.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/d027fa8917795898f46539d4552e48e9.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/ed7088baf049c341ccecb089cdda8ab2.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/setup/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/setup/hooks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +68,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "LjubishaMilosov"
+  }
+}]]></component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="940b5a5b-ff14-4a3a-8c2a-1d8f3be7be0e" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d2442bd9-e93e-490d-9ba6-447654c8fb0f" />
+        <option name="url" value="https://github.com/LjubishaMilosov/reat-app" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -139,34 +153,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ljubisha/IdeaProjects/testing-talks-hub/react-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;npm.cucumber --profile dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cucumber --profile regression.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cucumber --profile smoke.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cucumber.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cucumber:dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cucumber:regression.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cucumber:smoke.executor&quot;: &quot;Run&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Ljubisha\\IdeaProjects\\testing-talks-hub\\react-app\\e2e\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ljubisha/IdeaProjects/testing-talks-hub/react-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.cucumber --profile dev.executor": "Run",
+    "npm.cucumber --profile regression.executor": "Run",
+    "npm.cucumber --profile smoke.executor": "Run",
+    "npm.cucumber.executor": "Run",
+    "npm.cucumber:dev.executor": "Run",
+    "npm.cucumber:regression.executor": "Run",
+    "npm.cucumber:smoke.executor": "Run",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\Ljubisha\\IdeaProjects\\testing-talks-hub\\react-app\\e2e\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -186,9 +200,7 @@
       </scripts>
       <arguments value="--profile dev" />
       <node-interpreter value="project" />
-      <envs>
-        <env name="UI_AUTOMATION_BROWSER" value="chromium" />
-      </envs>
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="cucumber --profile regression" type="js.build_tools.npm">
@@ -199,9 +211,7 @@
       </scripts>
       <arguments value="--profile regression" />
       <node-interpreter value="project" />
-      <envs>
-        <env name="UI_AUTOMATION_BROWSER" value="chromium" />
-      </envs>
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="cucumber --profile smoke" type="js.build_tools.npm">
@@ -212,9 +222,7 @@
       </scripts>
       <arguments value="--profile smoke" />
       <node-interpreter value="project" />
-      <envs>
-        <env name="UI_AUTOMATION_BROWSER" value="chromium" />
-      </envs>
+      <envs />
       <method v="2" />
     </configuration>
     <list>
@@ -239,7 +247,7 @@
       <workItem from="1711550078544" duration="4186000" />
       <workItem from="1711554299178" duration="3883000" />
       <workItem from="1711568780074" duration="19321000" />
-      <workItem from="1711638794332" duration="3017000" />
+      <workItem from="1711638794332" duration="5340000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -305,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711579603955</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dynamic test configuration">
+      <option name="closed" value="true" />
+      <created>1711655475663</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711655475663</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -364,7 +380,9 @@
     <MESSAGE value="passing parameters" />
     <MESSAGE value="video &amp; screenshots on failure" />
     <MESSAGE value="cucumber world" />
-    <option name="LAST_COMMIT_MESSAGE" value="cucumber world" />
+    <MESSAGE value="dynamic test configuration" />
+    <MESSAGE value="ENV file for env variable management" />
+    <option name="LAST_COMMIT_MESSAGE" value="ENV file for env variable management" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">

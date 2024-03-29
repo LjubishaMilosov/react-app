@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "transpile": "rimraf dist && babel --extensions .ts --out-dir dist src",
-    "cucumber": "yarn transpile && cucumber-js"
+    "cucumber-compile": "yarn transpile && cucumber-js",
+    "cucumber": "COMMON_CONFIG_FILE=env/common.env yarn cucumber-compile"
   },
   "author": "Ljubisha Milosov",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "@babel/preset-typescript": "^7.24.1",
     "@cucumber/cucumber": "^10.3.2",
     "@playwright/test": "^1.42.1",
+    "dotenv": "^16.4.5",
     "playwright": "^1.42.1",
     "typescript": "^5.4.3"
   },
