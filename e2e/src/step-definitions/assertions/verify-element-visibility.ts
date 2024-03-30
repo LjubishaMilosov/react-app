@@ -21,7 +21,7 @@ import { expect } from '@playwright/test'
         /^the "([^"]*)" should be displayed$/,
         async function(elementKey:string){
             const {
-                screen: { page },
+                screen: { page }
             } = this;
 
             console.log(`the ${elementKey} should be displayed`);

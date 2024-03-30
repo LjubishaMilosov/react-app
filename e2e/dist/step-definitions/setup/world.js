@@ -62,6 +62,8 @@ var ScenarioWorld = exports.ScenarioWorld = /*#__PURE__*/function (_World) {
 
     _this2 = _callSuper(this, ScenarioWorld, [options]);
 
+    _defineProperty(_this2, "globalConfig", void 0);
+
     _defineProperty(_this2, "screen", void 0);
 
     _defineProperty(_this2, "newBrowser", /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
@@ -89,6 +91,7 @@ var ScenarioWorld = exports.ScenarioWorld = /*#__PURE__*/function (_World) {
       }, _callee);
     })));
 
+    _this2.globalConfig = options.parameters;
     return _this2;
   }
 
