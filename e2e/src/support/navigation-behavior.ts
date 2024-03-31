@@ -12,14 +12,10 @@ export const navigateToPage = async (
 
     const hostPath = hostsConfig[`${hostName}`]
 
-    console.log("hostPath ", hostPath);
-
     const url= new URL(hostPath);
-    console.log("url ", url);
 
     const pagesConfigItem = pagesConfig[pageId]
     url.pathname = pagesConfigItem.route;
-    console.log("pagesRoute ", url.pathname);
 
     await page.goto(url.href);
 

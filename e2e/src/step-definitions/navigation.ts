@@ -7,10 +7,13 @@ import{ navigateToPage} from'../support/navigation-behavior'
              async function(pageId:PageId) {
                  const {
                      screen: { page },
+                     globalVariables,
                      globalConfig,
                  } = this;
 
                          console.log(`I am on the ${pageId} page`);
+
+                         globalVariables.currentScreen = pageId;
 
                          await navigateToPage(page,pageId, globalConfig)
 

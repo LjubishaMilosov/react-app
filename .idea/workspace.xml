@@ -4,28 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="adding mappings for host urls and page routes">
-      <change afterPath="$PROJECT_DIR$/e2e/config/hosts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/config/pages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/dist/env/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/dist/support/navigation-behavior.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/48340745ee1337275ded2ea54892afbc.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/env/global.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/support/navigation-behavior.ts" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="element mappings using global variables-complete">
+      <change afterPath="$PROJECT_DIR$/e2e/config/mappings/common.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/config/mappings/home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/dist/support/web-element-helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/support/web-element-helper.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/env/parseEnv.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/env/parseEnv.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-visibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-visibility.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/navigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/world.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/world.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/support/navigation-behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/support/navigation-behavior.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/env/common.env" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/env/common.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/161310efbcf685613611b8c9ba48782f.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/env/parseEnv.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/env/parseEnv.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/48340745ee1337275ded2ea54892afbc.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/env/global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/env/global.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/navigation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/navigation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/setup/world.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/setup/world.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/support/navigation-behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/support/navigation-behavior.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +248,7 @@
       <workItem from="1711638794332" duration="10706000" />
       <workItem from="1711823684842" duration="627000" />
       <workItem from="1711828991516" duration="1064000" />
-      <workItem from="1711830165722" duration="4090000" />
+      <workItem from="1711830165722" duration="10871000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -331,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711714598999</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adding mappings for host urls and page routes">
+      <option name="closed" value="true" />
+      <created>1711834305656</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711834305656</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -393,7 +400,9 @@
     <MESSAGE value="dynamic test configuration" />
     <MESSAGE value="ENV file for env variable management" />
     <MESSAGE value="adding mappings for host urls and page routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding mappings for host urls and page routes" />
+    <MESSAGE value="creating element mappings using global variables to pass page" />
+    <MESSAGE value="element mappings using global variables-complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="element mappings using global variables-complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
