@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="custom Wait for function">
-      <change afterPath="$PROJECT_DIR$/e2e/dist/support/wait-for-behavior.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/After_4800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I expect to be able to see contacts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/1c37e162c8ffd835c007147713b499cb.webm" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="custom retries">
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/9da6bbeb641fc73b745b9175e492ad3f.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/config/mappings/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/common.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/env/parseEnv.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/env/parseEnv.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-visibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-visibility.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/support/wait-for-behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/support/wait-for-behavior.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/env/common.env" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/env/common.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/87daadba9b32b26567caf8f43b60caff.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/env/parseEnv.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/env/parseEnv.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/screenshots/After_2728.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I expect to be able to see contacts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/224bbfbf218801e9dfc3af016e507846.webm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/features/home-page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/home-page.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/setup/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/setup/hooks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/support/wait-for-behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/support/wait-for-behavior.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +156,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ljubisha/IdeaProjects/testing-talks-hub/react-app",
+    "last_opened_file_path": "C:/Users/Ljubisha/IdeaProjects/testing-talks-hub/react-app/e2e/src/step-definitions/assertions",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -179,14 +176,20 @@
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ljubisha\IdeaProjects\testing-talks-hub\react-app\e2e\src\step-definitions\assertions" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="./run_tests.bat dev" />
+    </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.cucumber-html-report.html">
     <configuration name="cucumber-html-report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-app/e2e/reports/cucumber-html-report.html" useBuiltInWebServerPort="true">
@@ -256,7 +259,7 @@
       <workItem from="1711638794332" duration="10706000" />
       <workItem from="1711823684842" duration="627000" />
       <workItem from="1711828991516" duration="1064000" />
-      <workItem from="1711830165722" duration="14273000" />
+      <workItem from="1711830165722" duration="15070000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -362,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711918312179</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="custom retries">
+      <option name="closed" value="true" />
+      <created>1711920085207</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711920085207</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -427,7 +438,8 @@
     <MESSAGE value="creating element mappings using global variables to pass page" />
     <MESSAGE value="element mappings using global variables-complete" />
     <MESSAGE value="custom Wait for function" />
-    <option name="LAST_COMMIT_MESSAGE" value="custom Wait for function" />
+    <MESSAGE value="custom retries" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom retries" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
