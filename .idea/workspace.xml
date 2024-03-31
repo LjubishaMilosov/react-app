@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="element mappings using global variables-complete">
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/87daadba9b32b26567caf8f43b60caff.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/support/wait-for-behavior.ts" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="custom Wait for function">
+      <change afterPath="$PROJECT_DIR$/e2e/dist/support/wait-for-behavior.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/After_4800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I expect to be able to see contacts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/1c37e162c8ffd835c007147713b499cb.webm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/config/mappings/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/env/parseEnv.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/env/parseEnv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-visibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-visibility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/env/common.env" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/env/common.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/87daadba9b32b26567caf8f43b60caff.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/env/parseEnv.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/env/parseEnv.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/features/home-page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/home-page.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/setup/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/setup/hooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/support/wait-for-behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/support/wait-for-behavior.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +152,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JavaScript Debug.cucumber-html-report.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -172,7 +188,10 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.cucumber --profile dev">
+  <component name="RunManager" selected="JavaScript Debug.cucumber-html-report.html">
+    <configuration name="cucumber-html-report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-app/e2e/reports/cucumber-html-report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="cucumber --profile dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/e2e/package.json" />
       <command value="run" />
@@ -207,10 +226,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.cucumber-html-report.html" />
       <item itemvalue="npm.cucumber --profile dev" />
       <item itemvalue="npm.cucumber --profile smoke" />
       <item itemvalue="npm.cucumber --profile regression" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.cucumber-html-report.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -231,7 +256,7 @@
       <workItem from="1711638794332" duration="10706000" />
       <workItem from="1711823684842" duration="627000" />
       <workItem from="1711828991516" duration="1064000" />
-      <workItem from="1711830165722" duration="12337000" />
+      <workItem from="1711830165722" duration="14273000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -329,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711873841243</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="custom Wait for function">
+      <option name="closed" value="true" />
+      <created>1711918312179</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711918312179</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -393,7 +426,8 @@
     <MESSAGE value="adding mappings for host urls and page routes" />
     <MESSAGE value="creating element mappings using global variables to pass page" />
     <MESSAGE value="element mappings using global variables-complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="element mappings using global variables-complete" />
+    <MESSAGE value="custom Wait for function" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom Wait for function" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

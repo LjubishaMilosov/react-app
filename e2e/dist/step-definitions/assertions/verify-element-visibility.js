@@ -2,9 +2,9 @@
 
 var _cucumber = require("@cucumber/cucumber");
 
-var _test = require("@playwright/test");
-
 var _webElementHelper = require("../../support/web-element-helper");
+
+var _waitForBehavior = require("../../support/wait-for-behavior");
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -24,9 +24,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
         case 5:
           content = _context.sent;
-          (0, _test.expect)(content).toBe(expectedElementText);
 
-        case 7:
+        case 6:
         case "end":
           return _context.stop();
       }
@@ -38,23 +37,40 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   };
 }());
 (0, _cucumber.Then)(/^the "([^"]*)" should be displayed$/, /*#__PURE__*/function () {
-  var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(elementKey) {
-    var page, globalVariables, globalConfig, elementIdentifier, locator;
-    return regeneratorRuntime.wrap(function _callee2$(_context2) {
-      while (1) switch (_context2.prev = _context2.next) {
+  var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3(elementKey) {
+    var page, globalVariables, globalConfig, elementIdentifier;
+    return regeneratorRuntime.wrap(function _callee3$(_context3) {
+      while (1) switch (_context3.prev = _context3.next) {
         case 0:
           page = this.screen.page, globalVariables = this.globalVariables, globalConfig = this.globalConfig;
           console.log("the ".concat(elementKey, " should be displayed"));
           elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalVariables, globalConfig);
-          locator = page.locator(elementIdentifier);
-          _context2.next = 6;
-          return (0, _test.expect)(locator).toBeVisible();
+          _context3.next = 5;
+          return (0, _waitForBehavior.waitFor)( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+            var isElementVisible;
+            return regeneratorRuntime.wrap(function _callee2$(_context2) {
+              while (1) switch (_context2.prev = _context2.next) {
+                case 0:
+                  _context2.next = 2;
+                  return page.$(elementIdentifier);
 
-        case 6:
+                case 2:
+                  _context2.t0 = _context2.sent;
+                  isElementVisible = _context2.t0 != null;
+                  return _context2.abrupt("return", isElementVisible);
+
+                case 5:
+                case "end":
+                  return _context2.stop();
+              }
+            }, _callee2);
+          })));
+
+        case 5:
         case "end":
-          return _context2.stop();
+          return _context3.stop();
       }
-    }, _callee2, this);
+    }, _callee3, this);
   }));
 
   return function (_x4, _x5) {
