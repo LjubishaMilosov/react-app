@@ -15,8 +15,6 @@ import {waitFor} from "../support/wait-for-behavior";
 
                          console.log(`I am on the ${pageId} page`);
 
-                         globalVariables.currentScreen = pageId;
-
                          await navigateToPage(page,pageId, globalConfig)
 
                         await waitFor(() => currentPathMatchesPageId(page, pageId, globalConfig));
