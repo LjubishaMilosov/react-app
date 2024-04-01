@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 308928900
+              "duration": 313059500
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 5,
             "name": "I am on the \"home\" page",
             "match": {
-              "location": "src\\step-definitions\\navigation.ts:7"
+              "location": "src\\step-definitions\\navigation.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 832432500
+              "duration": 836241300
             }
           },
           {
@@ -40,7 +40,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 144670500
+              "duration": 134439100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I am directed to the \"create contact\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 839300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the \"create contact header\" should contain the text \"Create Contact\"",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8154799
             }
           },
           {
@@ -48,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 71365899
+              "duration": 72453599
             }
           }
         ],

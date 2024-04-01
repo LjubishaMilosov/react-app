@@ -38,3 +38,27 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     return _ref.apply(this, arguments);
   };
 }());
+(0, _cucumber.Given)(/^I am directed to the "([^"]*)" page$/, /*#__PURE__*/function () {
+  var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(pageId) {
+    var page, globalConfig;
+    return regeneratorRuntime.wrap(function _callee2$(_context2) {
+      while (1) switch (_context2.prev = _context2.next) {
+        case 0:
+          page = this.screen.page, globalConfig = this.globalConfig;
+          console.log("I am directed to the ".concat(pageId, " page"));
+          _context2.next = 4;
+          return (0, _waitForBehavior.waitFor)(function () {
+            return (0, _navigationBehavior.currentPathMatchesPageId)(page, pageId, globalConfig);
+          });
+
+        case 4:
+        case "end":
+          return _context2.stop();
+      }
+    }, _callee2, this);
+  }));
+
+  return function (_x2, _x3) {
+    return _ref2.apply(this, arguments);
+  };
+}());
