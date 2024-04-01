@@ -18,17 +18,16 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         case 0:
           page = this.screen.page, globalVariables = this.globalVariables, globalConfig = this.globalConfig;
           console.log("I am on the ".concat(pageId, " page"));
-          globalVariables.currentScreen = pageId;
-          _context.next = 5;
+          _context.next = 4;
           return (0, _navigationBehavior.navigateToPage)(page, pageId, globalConfig);
 
-        case 5:
-          _context.next = 7;
+        case 4:
+          _context.next = 6;
           return (0, _waitForBehavior.waitFor)(function () {
             return (0, _navigationBehavior.currentPathMatchesPageId)(page, pageId, globalConfig);
           });
 
-        case 7:
+        case 6:
         case "end":
           return _context.stop();
       }

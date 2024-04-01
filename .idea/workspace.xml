@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="determining pageId by mating url to page regex">
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/9283d3883f7809e778d27ad0f6b6ac2f.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/features/create-contact.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/step-definitions/click.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/support/html-behavior.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/env/global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/env/global.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/navigation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/navigation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/setup/world.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/setup/world.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-value.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-value.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-visibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-visibility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/world.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/world.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/support/navigation-behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/support/navigation-behavior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/support/web-element-helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/support/web-element-helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/70252a9259ee8426eff5efe51bd18940.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/features/home-page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/home-page.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/support/navigation-behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/support/navigation-behavior.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/support/web-element-helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/support/web-element-helper.ts" afterDir="false" />
     </list>
@@ -254,7 +263,7 @@
       <workItem from="1711828991516" duration="1064000" />
       <workItem from="1711830165722" duration="15819000" />
       <workItem from="1711979345436" duration="2150000" />
-      <workItem from="1712001468183" duration="1557000" />
+      <workItem from="1712001468183" duration="3969000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -376,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711920819432</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="determining pageId by mating url to page regex">
+      <option name="closed" value="true" />
+      <created>1712003038698</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712003038698</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
