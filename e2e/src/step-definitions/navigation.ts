@@ -1,6 +1,8 @@
 import { Given } from '@cucumber/cucumber'
 import {PageId} from "../env/global";
-import{ navigateToPage} from'../support/navigation-behavior'
+import{ navigateToPage, currentPathMatchesPageId} from'../support/navigation-behavior'
+import {waitFor} from "../support/wait-for-behavior";
+
 
      Given(
              /^I am on the "([^"]*)" page$/,
@@ -17,5 +19,6 @@ import{ navigateToPage} from'../support/navigation-behavior'
 
                          await navigateToPage(page,pageId, globalConfig)
 
+                        await waitFor(() => currentPathMatchesPageId(page, pageId, globalConfig));
                  }
          )

@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 331919699
+              "duration": 2155132800
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 7,
             "name": "I am on the \"home\" page",
             "match": {
-              "location": "src\\step-definitions\\navigation.ts:5"
+              "location": "src\\step-definitions\\navigation.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 774286600
+              "duration": 877136200
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 51484800
+              "duration": 57250300
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12227699
+              "duration": 13244999
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 70450200
+              "duration": 2215393399
             }
           }
         ],

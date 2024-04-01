@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.navigateToPage = void 0;
+exports.navigateToPage = exports.currentPathMatchesPageId = void 0;
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -36,3 +36,17 @@ var navigateToPage = exports.navigateToPage = /*#__PURE__*/function () {
     return _ref2.apply(this, arguments);
   };
 }();
+
+var pathMatchesPageId = function pathMatchesPageId(path, pageId, _ref3) {
+  var pagesConfig = _ref3.pagesConfig;
+  var pageRegexString = pagesConfig[pageId].regex;
+  var pageRegex = new RegExp(pageRegexString);
+  return pageRegex.test(path);
+};
+
+var currentPathMatchesPageId = exports.currentPathMatchesPageId = function currentPathMatchesPageId(page, pageId, globalConfig) {
+  var _URL = new URL(page.url()),
+      currentPath = _URL.pathname;
+
+  return pathMatchesPageId(currentPath, pageId, globalConfig);
+};
