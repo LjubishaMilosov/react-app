@@ -25,3 +25,20 @@ import {waitFor} from '../../support/wait-for-behavior';
 
                      }
          )
+Then(
+    /^the "([^"]*)" should equal the text "(.*)"$/,
+    async function(this: ScenarioWorld, elementkey:ElementKey, expectedElementText:string) {
+        const {
+            screen: { page },
+            globalConfig,
+        } = this;
+
+        console.log(`the${elementkey} should equal the text ${expectedElementText}`)
+
+        const elementIdentifier = getElementLocator(page, elementkey, globalConfig)
+
+        await waitFor(async () => {
+            const elementText = await page.textContent(elementIdentifier)
+            return (elementText === expectedElementText)
+        })
+    });

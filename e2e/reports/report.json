@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 913551400
+              "duration": 1090299800
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1305746999
+              "duration": 1164862499
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 200460399
+              "duration": 782717999
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 542199
+              "duration": 601499
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16974699
+              "duration": 13336800
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 84434800
+              "duration": 106166299
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47192099
+              "duration": 83454700
             }
           },
           {
@@ -105,20 +105,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 67956300
+              "duration": 88304200
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "I fill in the \"street\" input with \"fake street, Skopje\"",
+            "name": "I fill in the \"street\" input with \"fake street\"",
             "match": {
               "location": "src\\step-definitions\\form.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 70685099
+              "duration": 193027799
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 49418199
+              "duration": 78641800
             }
           },
           {
@@ -144,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 94953499
+              "duration": 135546900
             }
           },
           {
@@ -157,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 340100
+              "duration": 313099
             }
           },
           {
@@ -170,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 65860999
+              "duration": 72389400
             }
           },
           {
@@ -183,20 +183,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10302200
+              "duration": 13646999
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 19,
-            "name": "the \"name\" should contain the text \"Ljubisha\"",
+            "name": "the \"name\" should equal the text \"Ljubisha\"",
             "match": {
-              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:9"
+              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 3796699
+              "duration": 8932099
             }
           },
           {
@@ -209,20 +209,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5045299
+              "duration": 5383400
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 21,
-            "name": "the \"gender\" should contain the text \"Male\"",
+            "name": "the \"gender\" should equal the text \"Male\"",
             "match": {
-              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:9"
+              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 6146899
+              "duration": 6410899
             }
           },
           {
@@ -235,20 +235,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3904599
+              "duration": 9511200
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 23,
-            "name": "the \"address\" should contain the text \"fake street, Skopje\"",
+            "name": "the \"address\" should equal the text \"fake street, Skopje\"",
             "match": {
-              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:9"
+              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 3088999
+              "duration": 5340500
             }
           },
           {
@@ -261,7 +261,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8831500
+              "duration": 7428599
             }
           },
           {
@@ -274,7 +274,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5615200
+              "duration": 12013100
             }
           },
           {
@@ -282,7 +282,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 355521300
+              "duration": 476199099
             }
           }
         ],
