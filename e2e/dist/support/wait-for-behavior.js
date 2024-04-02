@@ -28,7 +28,7 @@ var waitFor = exports.waitFor = /*#__PURE__*/function () {
 
         case 3:
           if (!(new Date().getTime() - startDate.getTime() < timeout)) {
-            _context.next = 14;
+            _context.next = 13;
             break;
           }
 
@@ -50,14 +50,13 @@ var waitFor = exports.waitFor = /*#__PURE__*/function () {
           return sleep(wait);
 
         case 11:
-          console.log("Waiting ".concat(wait, "ms"));
           _context.next = 3;
           break;
 
-        case 14:
+        case 13:
           throw new Error("Wait time of ".concat(timeout, "ms exceeded"));
 
-        case 15:
+        case 14:
         case "end":
           return _context.stop();
       }

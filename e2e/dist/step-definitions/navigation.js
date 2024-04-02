@@ -17,17 +17,16 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       while (1) switch (_context.prev = _context.next) {
         case 0:
           page = this.screen.page, globalVariables = this.globalVariables, globalConfig = this.globalConfig;
-          console.log("I am on the ".concat(pageId, " page"));
-          _context.next = 4;
+          _context.next = 3;
           return (0, _navigationBehavior.navigateToPage)(page, pageId, globalConfig);
 
-        case 4:
-          _context.next = 6;
+        case 3:
+          _context.next = 5;
           return (0, _waitForBehavior.waitFor)(function () {
             return (0, _navigationBehavior.currentPathMatchesPageId)(page, pageId, globalConfig);
           });
 
-        case 6:
+        case 5:
         case "end":
           return _context.stop();
       }
@@ -45,13 +44,12 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       while (1) switch (_context2.prev = _context2.next) {
         case 0:
           page = this.screen.page, globalConfig = this.globalConfig;
-          console.log("I am directed to the ".concat(pageId, " page"));
-          _context2.next = 4;
+          _context2.next = 3;
           return (0, _waitForBehavior.waitFor)(function () {
             return (0, _navigationBehavior.currentPathMatchesPageId)(page, pageId, globalConfig);
           });
 
-        case 4:
+        case 3:
         case "end":
           return _context2.stop();
       }

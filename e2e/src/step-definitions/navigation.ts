@@ -14,7 +14,7 @@ import {ScenarioWorld} from "./setup/world";
                      globalConfig,
                  } = this;
 
-                         console.log(`I am on the ${pageId} page`);
+
 
                          await navigateToPage(page,pageId, globalConfig)
 
@@ -30,7 +30,7 @@ Given(
             globalConfig,
         } = this;
 
-        console.log(`I am directed to the ${pageId} page`)
+
 
         await waitFor( () => currentPathMatchesPageId(page, pageId, globalConfig))
     }

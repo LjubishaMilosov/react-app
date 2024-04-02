@@ -17,9 +17,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       while (1) switch (_context2.prev = _context2.next) {
         case 0:
           page = this.screen.page, globalConfig = this.globalConfig;
-          console.log("the ".concat(elementKey, " should be displayed"));
           elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
-          _context2.next = 5;
+          _context2.next = 4;
           return (0, _waitForBehavior.waitFor)( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
             var isElementVisible;
             return regeneratorRuntime.wrap(function _callee$(_context) {
@@ -40,7 +39,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             }, _callee);
           })));
 
-        case 5:
+        case 4:
         case "end":
           return _context2.stop();
       }

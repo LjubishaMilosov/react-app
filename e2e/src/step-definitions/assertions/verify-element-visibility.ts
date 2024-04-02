@@ -14,7 +14,7 @@ import {waitFor} from '../../support/wait-for-behavior';
                 globalConfig
             } = this;
 
-            console.log(`the ${elementKey} should be displayed`);
+
 
             const elementIdentifier = getElementLocator(page, elementKey, globalConfig);
 

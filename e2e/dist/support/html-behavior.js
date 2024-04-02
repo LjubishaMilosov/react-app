@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.clickElement = void 0;
+exports.inputValue = exports.clickElement = void 0;
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -26,5 +26,29 @@ var clickElement = exports.clickElement = /*#__PURE__*/function () {
 
   return function clickElement(_x, _x2) {
     return _ref.apply(this, arguments);
+  };
+}();
+
+var inputValue = exports.inputValue = /*#__PURE__*/function () {
+  var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(page, elementIdentifier, input) {
+    return regeneratorRuntime.wrap(function _callee2$(_context2) {
+      while (1) switch (_context2.prev = _context2.next) {
+        case 0:
+          _context2.next = 2;
+          return page.focus(elementIdentifier);
+
+        case 2:
+          _context2.next = 4;
+          return page.fill(elementIdentifier, input);
+
+        case 4:
+        case "end":
+          return _context2.stop();
+      }
+    }, _callee2);
+  }));
+
+  return function inputValue(_x3, _x4, _x5) {
+    return _ref2.apply(this, arguments);
   };
 }();
