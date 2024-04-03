@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2636021999
+              "duration": 930710100
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2767373300
+              "duration": 1196928799
             }
           },
           {
@@ -40,12 +40,12 @@
             },
             "result": {
               "status": "passed",
-              "duration": 620331999
+              "duration": 204509799
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "When ",
             "line": 9,
             "name": "I am directed to the \"playground\" page",
             "match": {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 899600
+              "duration": 619099
             }
           },
           {
@@ -66,7 +66,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 679856299
+              "duration": 567677699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I check the \"male\" radio button",
+            "match": {
+              "location": "src\\step-definitions\\check.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 334959899
             }
           },
           {
@@ -74,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 500777600
+              "duration": 360983800
             }
           }
         ],

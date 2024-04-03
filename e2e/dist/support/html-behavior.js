@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.selectValue = exports.inputValue = exports.clickElement = void 0;
+exports.selectValue = exports.inputValue = exports.clickElement = exports.checkElement = void 0;
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -74,5 +74,25 @@ var selectValue = exports.selectValue = /*#__PURE__*/function () {
 
   return function selectValue(_x6, _x7, _x8) {
     return _ref3.apply(this, arguments);
+  };
+}();
+
+var checkElement = exports.checkElement = /*#__PURE__*/function () {
+  var _ref4 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4(page, elementIdentifier) {
+    return regeneratorRuntime.wrap(function _callee4$(_context4) {
+      while (1) switch (_context4.prev = _context4.next) {
+        case 0:
+          _context4.next = 2;
+          return page.check(elementIdentifier);
+
+        case 2:
+        case "end":
+          return _context4.stop();
+      }
+    }, _callee4);
+  }));
+
+  return function checkElement(_x9, _x10) {
+    return _ref4.apply(this, arguments);
   };
 }();
