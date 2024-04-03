@@ -15,8 +15,6 @@ When(
             globalConfig,
         } = this;
 
-
-
         const elementIdentifier = getElementLocator(page, elementKey, globalConfig)
 
         await waitFor (async () => {

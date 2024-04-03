@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="create contact-end to end">
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to create a new contact/3c284564e99f5dee5c6a421740edc146.webm" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="end to end improved">
+      <change afterPath="$PROJECT_DIR$/e2e/config/mappings/playground.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on radio buttons/43bbab47e3559dc0f88626183e7bbe95.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/radio-butons.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-checked.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-value.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-value.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/config/mappings/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/config/mappings/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/home.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/config/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/pages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/world.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/world.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/env/common.env" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/env/common.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to create a new contact/fca435a4765c3732a7a9e04b2de052ea.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to create a new contact/3c284564e99f5dee5c6a421740edc146.webm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/features/create-contact.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/create-contact.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/click.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/click.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +260,7 @@
       <workItem from="1711828991516" duration="1064000" />
       <workItem from="1711830165722" duration="15819000" />
       <workItem from="1711979345436" duration="2150000" />
-      <workItem from="1712001468183" duration="16451000" />
+      <workItem from="1712001468183" duration="20027000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -418,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712088229738</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="end to end improved">
+      <option name="closed" value="true" />
+      <created>1712093827215</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712093827215</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -490,7 +502,8 @@
     <MESSAGE value="determining pageId by matching url to page regex- final" />
     <MESSAGE value="introducing form steps" />
     <MESSAGE value="create contact-end to end" />
-    <option name="LAST_COMMIT_MESSAGE" value="create contact-end to end" />
+    <MESSAGE value="end to end improved" />
+    <option name="LAST_COMMIT_MESSAGE" value="end to end improved" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
