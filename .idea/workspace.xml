@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="automate radio buttons 2">
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to create a new contact/228e976b8dbe048fd2ac2fc3e6a86eb0.webm" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="introducing Negate to reduce duplication of step definitions">
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on autocomplete inputs/1380188bf2113d3243d8b0ff72e7293c.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/inputs.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/config/mappings/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/home.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/config/mappings/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/playground.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-value.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-value.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-visibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-visibility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/support/html-behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/support/html-behavior.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on radio buttons/bb99fff96d7f2da04424df7b2cab059d.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/features/create-contact.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/create-contact.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/features/home-page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/home-page.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/features/playground/radio-butons.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/playground/radio-butons.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to create a new contact/228e976b8dbe048fd2ac2fc3e6a86eb0.webm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/support/html-behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/support/html-behavior.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +258,7 @@
       <workItem from="1711830165722" duration="15819000" />
       <workItem from="1711979345436" duration="2150000" />
       <workItem from="1712001468183" duration="23366000" />
-      <workItem from="1712314063643" duration="2541000" />
+      <workItem from="1712314063643" duration="7721000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -455,7 +452,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712314307599</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="introducing Negate to reduce duplication of step definitions">
+      <option name="closed" value="true" />
+      <created>1712316939953</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712316939953</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -530,7 +535,8 @@
     <MESSAGE value="end to end improved" />
     <MESSAGE value="automate radio buttons" />
     <MESSAGE value="automate radio buttons 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="automate radio buttons 2" />
+    <MESSAGE value="introducing Negate to reduce duplication of step definitions" />
+    <option name="LAST_COMMIT_MESSAGE" value="introducing Negate to reduce duplication of step definitions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
