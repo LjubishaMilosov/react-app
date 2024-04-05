@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 930710100
+              "duration": 951202699
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1196928799
+              "duration": 1350775800
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 204509799
+              "duration": 339124600
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 619099
+              "duration": 842200
             }
           },
           {
@@ -66,20 +66,98 @@
             },
             "result": {
               "status": "passed",
-              "duration": 567677699
+              "duration": 694517599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the \"male\" radio button should not be checked",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-checked.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264330500
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
+            "line": 12,
             "name": "I check the \"male\" radio button",
             "match": {
               "location": "src\\step-definitions\\check.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 334959899
+              "duration": 183619099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the \"male\" radio button should be checked",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-checked.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13641700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the \"female\" radio button should not be checked",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-checked.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20295200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I check the \"female\" radio button",
+            "match": {
+              "location": "src\\step-definitions\\check.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161257099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the \"female\" radio button should be checked",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-checked.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11873400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the \"male\" radio button should not be checked",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-checked.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18938699
             }
           },
           {
@@ -87,7 +165,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 360983800
+              "duration": 415208699
             }
           }
         ],
