@@ -17,6 +17,7 @@ Feature: As a user I expect to be able to create contacts
 
     And I am directed to the "home" page
     And I fill in the "search" input with "Ljubisha"
+    And the "search" should not equal the text "Ljubish"
     And the "full name label" should contain the text "Name:"
     And the "name" should equal the text "Ljubisha"
     And the "gender label" should contain the text "Gender:"
