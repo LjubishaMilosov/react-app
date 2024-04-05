@@ -63,3 +63,22 @@ Then(
         })
 
     });
+
+Then(
+    /^the "([^"]*)" should( not)? equal the value "(.*)"$/,
+    async function(elementKey: ElementKey, negate: boolean, elementValue: string) {
+        const {
+            screen: { page },
+            globalConfig
+        } = this;
+
+        console.log(`the ${elementKey} should ${negate?'not ':''} equal the value ${elementValue}`)
+
+        const elementIdentifier = getElementLocator(page, elementKey, globalConfig)
+
+        await waitFor(async () => {
+            const elementAttribute = await getValue(page, elementIdentifier)
+            return (elementAttribute === elementValue) === !negate;
+        })
+
+    });

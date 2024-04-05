@@ -4,108 +4,56 @@
     "elements": [
       {
         "description": "",
-        "id": "as-a-user-i-can-interact-with-autocomplete-inputs;as-a-user-i-can-interact-and-assert-on-autocomplete-inputs",
+        "id": "as-a-user-i-can-interact-with-autocomplete-inputs;as-a-user-i-can-interact-and-assert-on-inputs",
         "keyword": "Scenario",
-        "line": 7,
-        "name": "As a user I can interact and assert on autocomplete inputs",
+        "line": 19,
+        "name": "As a user I can interact and assert on inputs",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1015916199
+              "duration": 832671400
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 8,
+            "line": 20,
             "name": "I am on the \"home\" page",
             "match": {
               "location": "src\\step-definitions\\navigation.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 1220402200
+              "duration": 919108299
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 9,
+            "line": 21,
             "name": "I click the \"playground\" button",
             "match": {
               "location": "src\\step-definitions\\click.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 299916099
+              "duration": 248595699
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 10,
+            "line": 22,
             "name": "I am directed to the \"playground\" page",
             "match": {
               "location": "src\\step-definitions\\navigation.ts:25"
             },
             "result": {
               "status": "passed",
-              "duration": 678099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "I fill in the \"movies\" input with \"The G\"",
-            "match": {
-              "location": "src\\step-definitions\\form.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 854474299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "I click the \"the godfather\" button",
-            "match": {
-              "location": "src\\step-definitions\\click.ts:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 115463300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "the \"movies\" should contain the value \"The Godfather\"",
-            "match": {
-              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:48"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 24191600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "the \"movies\" should not contain the value \"The Godfather: Part II\"",
-            "match": {
-              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:48"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 18839500
+              "duration": 745900
             }
           },
           {
@@ -113,22 +61,22 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 415347400
+              "duration": 353225600
             }
           }
         ],
         "tags": [
           {
             "name": "@dev",
-            "line": 3
+            "line": 16
           },
           {
             "name": "@smoke",
-            "line": 4
+            "line": 17
           },
           {
             "name": "@regression",
-            "line": 5
+            "line": 18
           }
         ],
         "type": "scenario"
