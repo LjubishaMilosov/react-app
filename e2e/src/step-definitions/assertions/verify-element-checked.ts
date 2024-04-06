@@ -6,13 +6,13 @@ import { ElementKey } from '../../env/global'
 
 
 Then(
-    /^the "([^"]*)" radio button should( not)? be checked$/,
+    /^the "([^"]*)" (?:check box|radio button) should( not)? be checked$/,
     async function(this:ScenarioWorld, elementKey: ElementKey, negate: boolean) {
         const {
             screen: {page},
             globalConfig,
         } = this;
-        console.log(`the ${elementKey} radio button should ${negate?'not':''} be checked`)
+        console.log(`the ${elementKey} check box|radio button should ${negate?'not':''} be checked`)
 
         const elementIdentifier = getElementLocator(page, elementKey, globalConfig)
 
