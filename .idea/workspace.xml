@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="introduce parallel and retry capability">
-      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/checkboxes.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/config/mappings/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/playground.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-checked.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-checked.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/check.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on autocomplete inputs/f151bf7a8db1601dc6eaba327eb28870.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on input validation/9187574b5fb93ba744c59fd137c203a3.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on inputs/363c7adbc7e0173f3690f115fd0fa366.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on radio buttons/399c56ee5656e15a844ca727f7c459b0.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I don't expect to see a contact that does not exist/1710ccb9dc59aba01881ac20c3829ab8.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to create a new contact/1558f5ed54e47d2ed09ee3a80787598b.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/48c000b4825d00095796cb51cadf8db4.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-checked.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-checked.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/check.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/check.ts" afterDir="false" />
-    </list>
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="Automation test checkboxes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,9 +51,6 @@
     &quot;assignee&quot;: &quot;LjubishaMilosov&quot;
   }
 }</component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="940b5a5b-ff14-4a3a-8c2a-1d8f3be7be0e" />
-  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -147,35 +127,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JavaScript Debug.cucumber-html-report.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ljubisha/IdeaProjects/testing-talks-hub/react-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;npm.cucumber --profile dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cucumber --profile regression.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cucumber --profile smoke.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cucumber.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cucumber:dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cucumber:regression.executor&quot;: &quot;Run&quot;,
-    &quot;npm.cucumber:smoke.executor&quot;: &quot;Run&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;aws.codewhisperer&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Ljubisha\\IdeaProjects\\testing-talks-hub\\react-app\\e2e\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JavaScript Debug.cucumber-html-report.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ljubisha/IdeaProjects/testing-talks-hub/react-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.cucumber --profile dev.executor": "Run",
+    "npm.cucumber --profile regression.executor": "Run",
+    "npm.cucumber --profile smoke.executor": "Run",
+    "npm.cucumber.executor": "Run",
+    "npm.cucumber:dev.executor": "Run",
+    "npm.cucumber:regression.executor": "Run",
+    "npm.cucumber:smoke.executor": "Run",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "C:\\Users\\Ljubisha\\IdeaProjects\\testing-talks-hub\\react-app\\e2e\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ljubisha\IdeaProjects\testing-talks-hub\react-app\e2e\src\step-definitions\assertions" />
@@ -264,7 +244,7 @@
       <workItem from="1711979345436" duration="2150000" />
       <workItem from="1712001468183" duration="23366000" />
       <workItem from="1712314063643" duration="13620000" />
-      <workItem from="1712513049834" duration="1496000" />
+      <workItem from="1712513049834" duration="1799000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -506,7 +486,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712394461609</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="introduce parallel and retry capability">
+      <option name="closed" value="true" />
+      <created>1712514738122</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1712514738122</updated>
+    </task>
+    <task id="LOCAL-00032" summary="introduce parallel and retry capability">
+      <option name="closed" value="true" />
+      <created>1712514796447</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1712514796447</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Automation test checkboxes">
+      <option name="closed" value="true" />
+      <created>1712514823060</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1712514823060</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -559,7 +563,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="passing parameters" />
     <MESSAGE value="video &amp; screenshots on failure" />
     <MESSAGE value="cucumber world" />
     <MESSAGE value="dynamic test configuration" />
@@ -584,7 +587,8 @@
     <MESSAGE value="automating AutoComplete input and form validation 3" />
     <MESSAGE value="automating form validation" />
     <MESSAGE value="introduce parallel and retry capability" />
-    <option name="LAST_COMMIT_MESSAGE" value="introduce parallel and retry capability" />
+    <MESSAGE value="Automation test checkboxes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Automation test checkboxes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
