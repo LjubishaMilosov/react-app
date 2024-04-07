@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1366229600
+              "duration": 908043400
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1099444200
+              "duration": 963319400
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 335446700
+              "duration": 284727599
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5332299
+              "duration": 3907600
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 726866100
+              "duration": 474432700
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 616290700
+              "duration": 364242400
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 537104999
+              "duration": 115306399
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 88778999
+              "duration": 8856499
             }
           },
           {
@@ -118,7 +118,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 98781899
+              "duration": 15158899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I uncheck the \"green\" check box",
+            "match": {
+              "location": "src\\step-definitions\\check.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86506800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the \"green\" check box should not be checked",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-checked.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6294399
             }
           },
           {
@@ -126,7 +152,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 823170599
+              "duration": 392587299
             }
           }
         ],
