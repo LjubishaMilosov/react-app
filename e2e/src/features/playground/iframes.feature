@@ -1,7 +1,6 @@
 Feature: As a user I can interact with IFrames
 
 
-  @dev
   @smoke
   @regression
   Scenario:As a user I can interact and assert on IFrames

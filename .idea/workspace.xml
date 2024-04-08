@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="Iframes">
-      <change afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-iframe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on IFrames/e94ceab96734b5f2581325aca124d298.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-iframe.ts" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="Iframes part 2">
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on autocomplete inputs/66ea559da820e54f35135ec97e1937c3.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on input validation/beaa4a8c6888fb98e124f7051a08722f.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on inputs/076a753f5c04a9401d491e386538587d.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/tabs.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-new-page.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/config/mappings/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/common.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/config/mappings/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/iframe.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/iframe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/config/mappings/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/playground.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/screenshots/After_9424.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I can interact and assert on IFrames.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on IFrames/6a3b87e0825710c335f68cfdaa993fec.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on IFrames/df09d6a8cf71f60f4cf5a6cb63f59d02.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on IFrames/a19e2491c681b49aa62dde5b589483b7.webm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/features/playground/iframes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/playground/iframes.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/iframe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/iframe.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +256,7 @@
       <workItem from="1711979345436" duration="2150000" />
       <workItem from="1712001468183" duration="23366000" />
       <workItem from="1712314063643" duration="13620000" />
-      <workItem from="1712513049834" duration="16249000" />
+      <workItem from="1712513049834" duration="20245000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -550,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712564737919</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Iframes part 2">
+      <option name="closed" value="true" />
+      <created>1712575303088</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1712575303088</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -603,7 +607,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="dynamic test configuration" />
     <MESSAGE value="ENV file for env variable management" />
     <MESSAGE value="adding mappings for host urls and page routes" />
     <MESSAGE value="creating element mappings using global variables to pass page" />
@@ -628,7 +631,8 @@
     <MESSAGE value="Automation test checkboxes" />
     <MESSAGE value="Automation test checkboxes part 2" />
     <MESSAGE value="Iframes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iframes" />
+    <MESSAGE value="Iframes part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iframes part 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
