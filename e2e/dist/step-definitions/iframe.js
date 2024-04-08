@@ -13,15 +13,15 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 (0, _cucumber.Then)(/^I fill in the "([^"]*)" input on the "([^"]*)" iframe with "([^"]*)"$/, /*#__PURE__*/function () {
-  var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(elementKey, iframeName, inputValue) {
+  var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(elementKey, iframeName, input) {
     var page, globalConfig, elementIdentifier, iframeIdentifier, elementIframe;
     return regeneratorRuntime.wrap(function _callee2$(_context2) {
       while (1) switch (_context2.prev = _context2.next) {
         case 0:
           page = this.screen.page, globalConfig = this.globalConfig;
-          console.log("I fill in the ".concat(elementKey, " input on the ").concat(iframeName, " iframe with").concat(inputValue));
+          console.log("I fill in the ".concat(elementKey, " input on the ").concat(iframeName, " iframe with").concat(input));
           elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
-          iframeIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
+          iframeIdentifier = (0, _webElementHelper.getElementLocator)(page, iframeName, globalConfig);
           _context2.next = 6;
           return (0, _htmlBehavior.getIframeElement)(page, iframeIdentifier);
 
@@ -52,7 +52,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                   }
 
                   _context.next = 7;
-                  return (0, _htmlBehavior.inputValueOnIframe)(elementIframe, elementIdentifier, inputValue);
+                  return (0, _htmlBehavior.inputValueOnIframe)(elementIframe, elementIdentifier, input);
 
                 case 7:
                   return _context.abrupt("return", result);
