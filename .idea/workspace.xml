@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="automating new tabs and windows part 3">
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new tabs/5192558953e4a0187a048838efc785ec.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new tabs/cfeb694c1f8e3cd0b535e72ac3974add.webm" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="automating new tabs and windows part 4">
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new tabs/a173bea5dda874c067e830fde1076d17.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new tabs/fb67a843eb48c242a64ecdb351f9ce0c.webm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-new-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-new-page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/features/playground/tabs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/playground/tabs.feature" afterDir="false" />
@@ -252,7 +253,7 @@
       <workItem from="1711979345436" duration="2150000" />
       <workItem from="1712001468183" duration="23366000" />
       <workItem from="1712314063643" duration="13620000" />
-      <workItem from="1712513049834" duration="24977000" />
+      <workItem from="1712513049834" duration="25808000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -574,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712603909895</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="automating new tabs and windows part 4">
+      <option name="closed" value="true" />
+      <created>1712604630252</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1712604630252</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -627,7 +636,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="element mappings using global variables-complete" />
     <MESSAGE value="custom Wait for function" />
     <MESSAGE value="custom retries" />
     <MESSAGE value="custom retries implemented" />
@@ -652,7 +660,8 @@
     <MESSAGE value="automating new tabs and windows part 1" />
     <MESSAGE value="automating new tabs and windows part 2" />
     <MESSAGE value="automating new tabs and windows part 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="automating new tabs and windows part 3" />
+    <MESSAGE value="automating new tabs and windows part 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="automating new tabs and windows part 4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

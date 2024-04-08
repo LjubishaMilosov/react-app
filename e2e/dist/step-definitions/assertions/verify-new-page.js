@@ -149,3 +149,48 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     return _ref5.apply(this, arguments);
   };
 }());
+(0, _cucumber.Then)(/^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" tab should(not )? equal the text "(.*)"$/, /*#__PURE__*/function () {
+  var _ref7 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee8(elementKey, elementPosition, negate, expectedElementText) {
+    var _elementPosition$matc4;
+
+    var _this$screen4, page, context, globalConfig, pageIndex, elementIdentifier;
+
+    return regeneratorRuntime.wrap(function _callee8$(_context8) {
+      while (1) switch (_context8.prev = _context8.next) {
+        case 0:
+          _this$screen4 = this.screen, page = _this$screen4.page, context = _this$screen4.context, globalConfig = this.globalConfig;
+          console.log("the".concat(elementKey, " on the ").concat(elementPosition, " tab should ").concat(negate ? 'not ' : '', "equal the text ").concat(expectedElementText));
+          pageIndex = Number((_elementPosition$matc4 = elementPosition.match(/\d/g)) === null || _elementPosition$matc4 === void 0 ? void 0 : _elementPosition$matc4.join('')) - 1;
+          elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
+          _context8.next = 6;
+          return (0, _waitForBehavior.waitFor)( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee7() {
+            var pages, elementText;
+            return regeneratorRuntime.wrap(function _callee7$(_context7) {
+              while (1) switch (_context7.prev = _context7.next) {
+                case 0:
+                  pages = context.pages();
+                  _context7.next = 3;
+                  return pages[pageIndex].textContent(elementIdentifier);
+
+                case 3:
+                  elementText = _context7.sent;
+                  return _context7.abrupt("return", elementText === expectedElementText === !negate);
+
+                case 5:
+                case "end":
+                  return _context7.stop();
+              }
+            }, _callee7);
+          })));
+
+        case 6:
+        case "end":
+          return _context8.stop();
+      }
+    }, _callee8, this);
+  }));
+
+  return function (_x14, _x15, _x16, _x17, _x18) {
+    return _ref7.apply(this, arguments);
+  };
+}());

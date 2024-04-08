@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2038657500
+              "duration": 1000821299
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1748283799
+              "duration": 1840562099
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 319841599
+              "duration": 369740800
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3507299
+              "duration": 4386700
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1913534800
+              "duration": 1102183699
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1459301199
+              "duration": 1056663700
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1294617099
+              "duration": 1019147299
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 182687399
+              "duration": 108931399
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34125899
+              "duration": 34689300
             }
           },
           {
@@ -131,7 +131,98 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19721700
+              "duration": 14932899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the \"name\" on the \"2nd\" tab should equal the text \"Sloane Juarez\"",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-new-page.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15958400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the \"gender label\" on the \"2nd\" tab should contain the text \"Gender:\"",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-new-page.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12305800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the \"gender\" on the \"2nd\" tab should equal the text \"Female\"",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-new-page.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10163800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the \"address label\" on the \"2nd\" tab should contain the text \"Address:\"",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-new-page.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12223900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the \"address\" on the \"2nd\" tab should equal the text \"8162 Tincidunt Rd., Ludhiana\"",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-new-page.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7534700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the \"edit\" on the \"2nd\" tab should be displayed",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-new-page.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10970699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the \"delete\" on the \"2nd\" tab should be displayed",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-new-page.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18037999
             }
           },
           {
@@ -139,7 +230,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 673036400
+              "duration": 467946199
             }
           }
         ],
