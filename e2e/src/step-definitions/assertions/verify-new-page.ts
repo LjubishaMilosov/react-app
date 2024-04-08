@@ -25,3 +25,25 @@ Then(
         })
     }
 )
+
+Then(
+    /^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" tab should( not)? be displayed$/,
+    async function( this:ScenarioWorld, elementKey: ElementKey, elementPosition: string, negate: boolean) {
+        const {
+            screen: { page, context },
+            globalConfig
+        } = this;
+
+        console.log(`the${elementKey} on the ${elementPosition} tab should ${negate?'not ':''}be displayed`)
+
+        const pageIndex = Number(elementPosition.match(/\d/g)?.join('')) -1
+
+        const elementIdentifier = getElementLocator(page, elementKey, globalConfig);
+
+        await waitFor( async () => {
+            let pages= context.pages();
+            const isElementVisible = (await pages[pageIndex].$(elementIdentifier)) != null;
+            return isElementVisible === !negate
+        })
+    }
+)
