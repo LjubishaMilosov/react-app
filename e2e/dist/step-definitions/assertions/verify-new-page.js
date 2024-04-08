@@ -104,3 +104,48 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     return _ref3.apply(this, arguments);
   };
 }());
+(0, _cucumber.Then)(/^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" tab should(not )? contain the text "(.*)"$/, /*#__PURE__*/function () {
+  var _ref5 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6(elementKey, elementPosition, negate, expectedElementText) {
+    var _elementPosition$matc3;
+
+    var _this$screen3, page, context, globalConfig, pageIndex, elementIdentifier;
+
+    return regeneratorRuntime.wrap(function _callee6$(_context6) {
+      while (1) switch (_context6.prev = _context6.next) {
+        case 0:
+          _this$screen3 = this.screen, page = _this$screen3.page, context = _this$screen3.context, globalConfig = this.globalConfig;
+          console.log("the".concat(elementKey, " on the ").concat(elementPosition, " tab should ").concat(negate ? 'not ' : '', "contain the text ").concat(expectedElementText));
+          pageIndex = Number((_elementPosition$matc3 = elementPosition.match(/\d/g)) === null || _elementPosition$matc3 === void 0 ? void 0 : _elementPosition$matc3.join('')) - 1;
+          elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
+          _context6.next = 6;
+          return (0, _waitForBehavior.waitFor)( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {
+            var pages, elementText;
+            return regeneratorRuntime.wrap(function _callee5$(_context5) {
+              while (1) switch (_context5.prev = _context5.next) {
+                case 0:
+                  pages = context.pages();
+                  _context5.next = 3;
+                  return pages[pageIndex].textContent(elementIdentifier);
+
+                case 3:
+                  elementText = _context5.sent;
+                  return _context5.abrupt("return", (elementText === null || elementText === void 0 ? void 0 : elementText.includes(expectedElementText)) === !negate);
+
+                case 5:
+                case "end":
+                  return _context5.stop();
+              }
+            }, _callee5);
+          })));
+
+        case 6:
+        case "end":
+          return _context6.stop();
+      }
+    }, _callee6, this);
+  }));
+
+  return function (_x9, _x10, _x11, _x12, _x13) {
+    return _ref5.apply(this, arguments);
+  };
+}());
