@@ -1,6 +1,5 @@
 Feature: As a user I can interact with checkboxes
 
-  @dev
   @smoke
   @regression
 
