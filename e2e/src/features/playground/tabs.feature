@@ -1,6 +1,6 @@
 Feature: As a user I can interact with tabs
 
-@dev
+
 @smoke
 @regression
 

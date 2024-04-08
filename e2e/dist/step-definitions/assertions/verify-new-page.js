@@ -10,7 +10,7 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
-(0, _cucumber.Then)(/^the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" tab should( not)? contain the title "(.*)"$/, /*#__PURE__*/function () {
+(0, _cucumber.Then)(/^the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" (?:tab|window) should( not)? contain the title "(.*)"$/, /*#__PURE__*/function () {
   var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(elementPosition, negate, expectedTitle) {
     var _elementPosition$matc;
 
@@ -20,7 +20,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       while (1) switch (_context2.prev = _context2.next) {
         case 0:
           _this$screen = this.screen, page = _this$screen.page, context = _this$screen.context;
-          console.log("the ".concat(elementPosition, " tab should ").concat(negate ? 'not ' : '', "contain the title ").concat(expectedTitle));
+          console.log("the ".concat(elementPosition, " window|tab should ").concat(negate ? 'not ' : '', "contain the title ").concat(expectedTitle));
           pageIndex = Number((_elementPosition$matc = elementPosition.match(/\d/g)) === null || _elementPosition$matc === void 0 ? void 0 : _elementPosition$matc.join('')) - 1;
           _context2.next = 5;
           return page.waitForTimeout(1000);
@@ -58,7 +58,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     return _ref.apply(this, arguments);
   };
 }());
-(0, _cucumber.Then)(/^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" tab should( not)? be displayed$/, /*#__PURE__*/function () {
+(0, _cucumber.Then)(/^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" (?:tab|window) should( not)? be displayed$/, /*#__PURE__*/function () {
   var _ref3 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4(elementKey, elementPosition, negate) {
     var _elementPosition$matc2;
 
@@ -68,7 +68,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       while (1) switch (_context4.prev = _context4.next) {
         case 0:
           _this$screen2 = this.screen, page = _this$screen2.page, context = _this$screen2.context, globalConfig = this.globalConfig;
-          console.log("the".concat(elementKey, " on the ").concat(elementPosition, " tab should ").concat(negate ? 'not ' : '', "be displayed"));
+          console.log("the".concat(elementKey, " on the ").concat(elementPosition, " window|tab should ").concat(negate ? 'not ' : '', "be displayed"));
           pageIndex = Number((_elementPosition$matc2 = elementPosition.match(/\d/g)) === null || _elementPosition$matc2 === void 0 ? void 0 : _elementPosition$matc2.join('')) - 1;
           elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
           _context4.next = 6;
@@ -104,7 +104,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     return _ref3.apply(this, arguments);
   };
 }());
-(0, _cucumber.Then)(/^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" tab should(not )? contain the text "(.*)"$/, /*#__PURE__*/function () {
+(0, _cucumber.Then)(/^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" (?:tab|window) should(not )? contain the text "(.*)"$/, /*#__PURE__*/function () {
   var _ref5 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6(elementKey, elementPosition, negate, expectedElementText) {
     var _elementPosition$matc3;
 
@@ -114,7 +114,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       while (1) switch (_context6.prev = _context6.next) {
         case 0:
           _this$screen3 = this.screen, page = _this$screen3.page, context = _this$screen3.context, globalConfig = this.globalConfig;
-          console.log("the".concat(elementKey, " on the ").concat(elementPosition, " tab should ").concat(negate ? 'not ' : '', "contain the text ").concat(expectedElementText));
+          console.log("the".concat(elementKey, " on the ").concat(elementPosition, " window|tab should ").concat(negate ? 'not ' : '', "contain the text ").concat(expectedElementText));
           pageIndex = Number((_elementPosition$matc3 = elementPosition.match(/\d/g)) === null || _elementPosition$matc3 === void 0 ? void 0 : _elementPosition$matc3.join('')) - 1;
           elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
           _context6.next = 6;
@@ -149,7 +149,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     return _ref5.apply(this, arguments);
   };
 }());
-(0, _cucumber.Then)(/^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" tab should(not )? equal the text "(.*)"$/, /*#__PURE__*/function () {
+(0, _cucumber.Then)(/^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" (?:tab|window) should(not )? equal the text "(.*)"$/, /*#__PURE__*/function () {
   var _ref7 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee8(elementKey, elementPosition, negate, expectedElementText) {
     var _elementPosition$matc4;
 
@@ -159,7 +159,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       while (1) switch (_context8.prev = _context8.next) {
         case 0:
           _this$screen4 = this.screen, page = _this$screen4.page, context = _this$screen4.context, globalConfig = this.globalConfig;
-          console.log("the".concat(elementKey, " on the ").concat(elementPosition, " tab should ").concat(negate ? 'not ' : '', "equal the text ").concat(expectedElementText));
+          console.log("the".concat(elementKey, " on the ").concat(elementPosition, " window|tab should ").concat(negate ? 'not ' : '', "equal the text ").concat(expectedElementText));
           pageIndex = Number((_elementPosition$matc4 = elementPosition.match(/\d/g)) === null || _elementPosition$matc4 === void 0 ? void 0 : _elementPosition$matc4.join('')) - 1;
           elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
           _context8.next = 6;

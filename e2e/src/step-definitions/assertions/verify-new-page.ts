@@ -6,13 +6,13 @@ import { ElementKey } from '../../env/global'
 import { getIframeElement } from '../../support/html-behavior'
 
 Then(
-    /^the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" tab should( not)? contain the title "(.*)"$/,
+    /^the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" (?:tab|window) should( not)? contain the title "(.*)"$/,
     async function(this:ScenarioWorld, elementPosition: string, negate: boolean, expectedTitle: string) {
         const {
             screen: {page, context },
         } = this;
 
-        console.log(`the ${elementPosition} tab should ${negate?'not ':''}contain the title ${expectedTitle}`)
+        console.log(`the ${elementPosition} window|tab should ${negate?'not ':''}contain the title ${expectedTitle}`)
 
         const pageIndex = Number(elementPosition.match(/\d/g)?.join('')) -1
 
@@ -27,14 +27,14 @@ Then(
 )
 
 Then(
-    /^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" tab should( not)? be displayed$/,
+    /^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" (?:tab|window) should( not)? be displayed$/,
     async function( this:ScenarioWorld, elementKey: ElementKey, elementPosition: string, negate: boolean) {
         const {
             screen: { page, context },
             globalConfig
         } = this;
 
-        console.log(`the${elementKey} on the ${elementPosition} tab should ${negate?'not ':''}be displayed`)
+        console.log(`the${elementKey} on the ${elementPosition} window|tab should ${negate?'not ':''}be displayed`)
 
         const pageIndex = Number(elementPosition.match(/\d/g)?.join('')) -1
 
@@ -49,14 +49,14 @@ Then(
 )
 
 Then(
-    /^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" tab should(not )? contain the text "(.*)"$/,
+    /^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" (?:tab|window) should(not )? contain the text "(.*)"$/,
     async function( this: ScenarioWorld, elementKey: ElementKey, elementPosition: string, negate: boolean, expectedElementText: string) {
         const {
             screen: { page, context },
             globalConfig
         } = this;
 
-        console.log(`the${elementKey} on the ${elementPosition} tab should ${negate?'not ':''}contain the text ${expectedElementText}`)
+        console.log(`the${elementKey} on the ${elementPosition} window|tab should ${negate?'not ':''}contain the text ${expectedElementText}`)
 
         const pageIndex = Number(elementPosition.match(/\d/g)?.join('')) -1
 
@@ -71,14 +71,14 @@ Then(
 )
 
 Then(
-    /^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" tab should(not )? equal the text "(.*)"$/,
+    /^the "([^"]*)" on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" (?:tab|window) should(not )? equal the text "(.*)"$/,
     async function( this: ScenarioWorld, elementKey: ElementKey, elementPosition: string, negate: boolean, expectedElementText: string) {
         const {
             screen: { page, context },
             globalConfig
         } = this;
 
-        console.log(`the${elementKey} on the ${elementPosition} tab should ${negate?'not ':''}equal the text ${expectedElementText}`)
+        console.log(`the${elementKey} on the ${elementPosition} window|tab should ${negate?'not ':''}equal the text ${expectedElementText}`)
 
         const pageIndex = Number(elementPosition.match(/\d/g)?.join('')) -1
 
