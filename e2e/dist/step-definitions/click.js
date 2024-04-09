@@ -63,3 +63,58 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     return _ref.apply(this, arguments);
   };
 }());
+(0, _cucumber.When)(/^I click the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" "([^"]*)" (?:button|link|icon|element)$/, /*#__PURE__*/function () {
+  var _ref3 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4(elementPosition, elementKey) {
+    var _elementPosition$matc;
+
+    var page, globalConfig, pageIndex, elementIdentifier;
+    return regeneratorRuntime.wrap(function _callee4$(_context4) {
+      while (1) switch (_context4.prev = _context4.next) {
+        case 0:
+          page = this.screen.page, globalConfig = this.globalConfig;
+          console.log("I click ".concat(elementPosition, " ").concat(elementKey, " button|link"));
+          pageIndex = Number((_elementPosition$matc = elementPosition.match(/\d/g)) === null || _elementPosition$matc === void 0 ? void 0 : _elementPosition$matc.join('')) - 1;
+          elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
+          _context4.next = 6;
+          return (0, _waitForBehavior.waitFor)( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
+            var result;
+            return regeneratorRuntime.wrap(function _callee3$(_context3) {
+              while (1) switch (_context3.prev = _context3.next) {
+                case 0:
+                  _context3.next = 2;
+                  return page.waitForSelector(elementIdentifier, {
+                    state: 'visible'
+                  });
+
+                case 2:
+                  result = _context3.sent;
+
+                  if (!result) {
+                    _context3.next = 6;
+                    break;
+                  }
+
+                  _context3.next = 6;
+                  return (0, _htmlBehavior.clickElementAtIndex)(page, elementIdentifier, pageIndex);
+
+                case 6:
+                  return _context3.abrupt("return", result);
+
+                case 7:
+                case "end":
+                  return _context3.stop();
+              }
+            }, _callee3);
+          })));
+
+        case 6:
+        case "end":
+          return _context4.stop();
+      }
+    }, _callee4, this);
+  }));
+
+  return function (_x3, _x4, _x5) {
+    return _ref3.apply(this, arguments);
+  };
+}());

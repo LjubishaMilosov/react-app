@@ -4,23 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="automating new tabs and windows part 5">
-      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/After_3961.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I can interact and assert on new windows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new windows/daa12fdb01b91b4d36b393df219083ca.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new windows/dad0fc7014e3de69ca3443dd2bd06003.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/windows.feature" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="automating new tabs and windows final">
+      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/After_7511.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I can interact and assert on buttons at index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on buttons at index/48f686ea3d4f232bc96a2b9be6eee7c1.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on buttons at index/97cb4adb42c3259f1840ffb202c18ab2.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/buttons.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/links.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/config/mappings/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/playground.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-new-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-new-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-value.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-value.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/click.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/click.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/support/html-behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/support/html-behavior.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new tabs/a173bea5dda874c067e830fde1076d17.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new tabs/fb67a843eb48c242a64ecdb351f9ce0c.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/features/playground/tabs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/playground/tabs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-new-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-new-page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert checkboxes/aa2c4d63f0bbf884418aaff31097ded7.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on IFrames/b45be456b9a4fc2790760ba61d29b428.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on autocomplete inputs/ddca33bdf88e625ab802ce3c54d18ebd.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on input validation/1bc7aa32b5b9b177b8d6a826db7124df.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on inputs/087fa044e0b1b6279acaf62153c02d31.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new tabs/44c14bbed16c5f5f06376f4d8cb283ee.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new tabs/83a41ab02bf2596c92c0f82e32444d01.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new windows/1733d3e48109706e265e0a90459697bb.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new windows/41ced3c078e13ea5d3d2f2477a0d61ad.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on radio buttons/8395b04339af821d6d408502bb0731dc.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I don't expect to see a contact that does not exist/35ef66ce3f1e07f6251606f5a3b36698.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to create a new contact/9240b7eaf48692e2e7560f98257216ae.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/10450645370a733373bf4fd8edcc962d.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/click.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/click.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/support/html-behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/support/html-behavior.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +274,7 @@
       <workItem from="1711979345436" duration="2150000" />
       <workItem from="1712001468183" duration="23366000" />
       <workItem from="1712314063643" duration="13620000" />
-      <workItem from="1712513049834" duration="27606000" />
+      <workItem from="1712513049834" duration="32220000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -599,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712605439398</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="automating new tabs and windows final">
+      <option name="closed" value="true" />
+      <created>1712607667791</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1712607667791</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -652,7 +673,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="custom retries" />
     <MESSAGE value="custom retries implemented" />
     <MESSAGE value="determining pageId by mating url to page regex" />
     <MESSAGE value="determining pageId by matching url to page regex- part 2" />
@@ -677,7 +697,8 @@
     <MESSAGE value="automating new tabs and windows part 3" />
     <MESSAGE value="automating new tabs and windows part 4" />
     <MESSAGE value="automating new tabs and windows part 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="automating new tabs and windows part 5" />
+    <MESSAGE value="automating new tabs and windows final" />
+    <option name="LAST_COMMIT_MESSAGE" value="automating new tabs and windows final" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
