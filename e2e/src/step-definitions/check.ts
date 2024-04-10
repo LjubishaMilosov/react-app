@@ -6,7 +6,7 @@ import { ElementKey } from '../env/global'
 import {checkElement, uncheckElement,} from "../support/html-behavior";
 
 Then(
-    /^I (check)?(uncheck)? the "([^"]*)" (?:check box|radio button)$/,
+    /^I (check)?(uncheck)? the "([^"]*)" (?:check box|radio button|switch)$/,
     async function(this:ScenarioWorld, checked: boolean, unchecked: boolean, elementKey: ElementKey) {
         const{
             screen: { page },

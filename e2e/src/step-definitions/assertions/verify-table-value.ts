@@ -24,9 +24,6 @@ Then(
                                         })
                             })
 
-                    console.log("html table ", JSON.stringify(dataBefore))
-                    console.log("cucumber table ", JSON.stringify(dataTable.raw()))
-
                     await waitFor(async () => {
                             return JSON.stringify(dataBefore) === JSON.stringify(dataTable.raw()) === !negate;
                         });

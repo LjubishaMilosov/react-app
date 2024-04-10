@@ -31,9 +31,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
         case 5:
           dataBefore = _context2.sent;
-          console.log("html table ", JSON.stringify(dataBefore));
-          console.log("cucumber table ", JSON.stringify(dataTable.raw()));
-          _context2.next = 10;
+          _context2.next = 8;
           return (0, _waitForBehavior.waitFor)( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
             return regeneratorRuntime.wrap(function _callee$(_context) {
               while (1) switch (_context.prev = _context.next) {
@@ -47,7 +45,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             }, _callee);
           })));
 
-        case 10:
+        case 8:
         case "end":
           return _context2.stop();
       }
