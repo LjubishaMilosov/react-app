@@ -5,35 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="automating new tabs and windows final">
-      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/After_7511.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I can interact and assert on buttons at index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on buttons at index/48f686ea3d4f232bc96a2b9be6eee7c1.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on buttons at index/97cb4adb42c3259f1840ffb202c18ab2.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/buttons.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/links.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-table-value.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/After_6795.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I can interact and assert on tables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on tables/24c194e8e4a38e58191806fa97e4b7cc.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on tables/c72b45ca66f1695a64eadef94499692c.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/tables.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-table-value.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/config/mappings/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/playground.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-value.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-value.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/click.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/click.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/support/html-behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/support/html-behavior.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert checkboxes/aa2c4d63f0bbf884418aaff31097ded7.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on IFrames/b45be456b9a4fc2790760ba61d29b428.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on autocomplete inputs/ddca33bdf88e625ab802ce3c54d18ebd.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on input validation/1bc7aa32b5b9b177b8d6a826db7124df.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on inputs/087fa044e0b1b6279acaf62153c02d31.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new tabs/44c14bbed16c5f5f06376f4d8cb283ee.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new tabs/83a41ab02bf2596c92c0f82e32444d01.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new windows/1733d3e48109706e265e0a90459697bb.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new windows/41ced3c078e13ea5d3d2f2477a0d61ad.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on radio buttons/8395b04339af821d6d408502bb0731dc.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I don't expect to see a contact that does not exist/35ef66ce3f1e07f6251606f5a3b36698.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to create a new contact/9240b7eaf48692e2e7560f98257216ae.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/10450645370a733373bf4fd8edcc962d.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/click.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/click.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/support/html-behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/support/html-behavior.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on buttons at index/e6b8a2a937310ecd30ddcc5cb61e5029.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/features/playground/buttons.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/playground/buttons.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,35 +141,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JavaScript Debug.cucumber-html-report.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ljubisha/IdeaProjects/testing-talks-hub/react-app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "npm.cucumber --profile dev.executor": "Run",
-    "npm.cucumber --profile regression.executor": "Run",
-    "npm.cucumber --profile smoke.executor": "Run",
-    "npm.cucumber.executor": "Run",
-    "npm.cucumber:dev.executor": "Run",
-    "npm.cucumber:regression.executor": "Run",
-    "npm.cucumber:smoke.executor": "Run",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "ts.external.directory.path": "C:\\Users\\Ljubisha\\IdeaProjects\\testing-talks-hub\\react-app\\e2e\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JavaScript Debug.cucumber-html-report.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ljubisha/IdeaProjects/testing-talks-hub/react-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.cucumber --profile dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cucumber --profile regression.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cucumber --profile smoke.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cucumber.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cucumber:dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cucumber:regression.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cucumber:smoke.executor&quot;: &quot;Run&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Ljubisha\\IdeaProjects\\testing-talks-hub\\react-app\\e2e\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ljubisha\IdeaProjects\testing-talks-hub\react-app\e2e\src\step-definitions\assertions" />
@@ -275,6 +259,7 @@
       <workItem from="1712001468183" duration="23366000" />
       <workItem from="1712314063643" duration="13620000" />
       <workItem from="1712513049834" duration="32220000" />
+      <workItem from="1712767064030" duration="2103000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
