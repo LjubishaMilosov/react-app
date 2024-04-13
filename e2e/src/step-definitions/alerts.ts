@@ -9,7 +9,8 @@ When(
             screen: {page},
         } = this;
 
-        console.log(`i click ${dismissDialog} on the alert dialog`)
+        console.log(`i click ${dismissDialog?'dismiss ':'accept '}on the alert dialog`)
+        console.log("!!dismissDialog ", !!dismissDialog)
 
         if(!!dismissDialog) {
             page.on('dialog', dialog => dialog.dismiss())
