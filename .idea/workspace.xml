@@ -4,34 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="automating browser alerts improved">
-      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/After_7624.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I can interact and assert on page alerts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on page alerts/3dfdf0d0c6643f8508b959f696a50eee.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on page alerts/6f53d510ce929f3cd4f4a6a4041439b3.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/page-alerts.feature" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="automating tooltips">
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on tooltips/5c356a3c9a6f984543c0baff4e54d70b.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/tooltips.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/config/mappings/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/playground.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-value.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-element-value.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/support/html-behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/support/html-behavior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/env/common.env" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/env/common.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert checkboxes/ab42aafc107a4f9e148b8f48a61a02a0.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on IFrames/ce1f4f6f175b4f7c0365092b2cd60545.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on autocomplete inputs/37e3eb969b849ba1dfc58d4a73788026.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on browser alerts/f1c08f02e0e8c471921779ec85a69432.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on buttons at index/ca6e2a91a1539c798cd7520492feb34b.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on input validation/35690babc9e580ef352141596d84d03a.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on inputs/16bae60623445e5263da987b75c402bc.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on links/dc7ce0e497250247cc45d4e4ba9d8e8d.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new tabs/31c3fbcc3a2646c6b0127036898983b3.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new tabs/44956c16b939f028855b9d5a2e581aed.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new windows/093bc5521af5c9312fbd636b292b450a.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on new windows/1dd6a94017efe132e879d7872fcdb823.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on radio buttons/194bbb39862aab87e2df91f68d8808dc.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on switches/ba6fa6aa69ba664ce5c3eef50bd19916.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on tables/b01243e296437e38c93ae8ec6aca6429.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I don't expect to see a contact that does not exist/d2b65f109fb831eb0e9b8033c2a63d99.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to create a new contact/e624edacaffa983495df9f81788f561b.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I expect to be able to see contacts/5bfc65a83ee8a9197a9610664982d613.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on page alerts/96f2ca73e45b8007e7bc33b17d5e4e36.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/features/playground/page-alerts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/playground/page-alerts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-value.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/support/html-behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/support/html-behavior.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +261,7 @@
       <workItem from="1712513049834" duration="32220000" />
       <workItem from="1712767064030" duration="3559000" />
       <workItem from="1713036200420" duration="3417000" />
-      <workItem from="1713174584301" duration="1791000" />
+      <workItem from="1713174584301" duration="3206000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -661,7 +647,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713038994636</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="automating page alerts">
+      <option name="closed" value="true" />
+      <created>1713178110905</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1713178110905</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -714,8 +708,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="introducing form steps" />
-    <MESSAGE value="create contact-end to end" />
     <MESSAGE value="end to end improved" />
     <MESSAGE value="automate radio buttons" />
     <MESSAGE value="automate radio buttons 2" />
@@ -739,7 +731,9 @@
     <MESSAGE value="automating switches" />
     <MESSAGE value="automating browser alerts" />
     <MESSAGE value="automating browser alerts improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="automating browser alerts improved" />
+    <MESSAGE value="automating page alerts" />
+    <MESSAGE value="automating tooltips" />
+    <option name="LAST_COMMIT_MESSAGE" value="automating tooltips" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

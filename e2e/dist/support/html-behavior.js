@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.uncheckElement = exports.selectValue = exports.inputValueOnPage = exports.inputValueOnIframe = exports.inputValue = exports.getValue = exports.getIframeElement = exports.clickElementAtIndex = exports.clickElement = exports.checkElement = void 0;
+exports.uncheckElement = exports.selectValue = exports.inputValueOnPage = exports.inputValueOnIframe = exports.inputValue = exports.getValue = exports.getIframeElement = exports.getAttributeText = exports.clickElementAtIndex = exports.clickElement = exports.checkElement = void 0;
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -245,5 +245,26 @@ var inputValueOnPage = exports.inputValueOnPage = /*#__PURE__*/function () {
 
   return function inputValueOnPage(_x23, _x24, _x25, _x26) {
     return _ref10.apply(this, arguments);
+  };
+}();
+
+var getAttributeText = exports.getAttributeText = /*#__PURE__*/function () {
+  var _ref11 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee11(page, elementIdentifier, attribute) {
+    var attributeText;
+    return regeneratorRuntime.wrap(function _callee11$(_context11) {
+      while (1) switch (_context11.prev = _context11.next) {
+        case 0:
+          attributeText = page.locator(elementIdentifier).getAttribute(attribute);
+          return _context11.abrupt("return", attributeText);
+
+        case 2:
+        case "end":
+          return _context11.stop();
+      }
+    }, _callee11);
+  }));
+
+  return function getAttributeText(_x27, _x28, _x29) {
+    return _ref11.apply(this, arguments);
   };
 }();
