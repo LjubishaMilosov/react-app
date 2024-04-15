@@ -15,14 +15,20 @@ export type Screen = {
     page: Page;
 };
 
+
+class GlobalVariables {
+}
+
 export class ScenarioWorld extends World {
     constructor(options: IWorldOptions){
         super (options);
 
         this.globalConfig = options.parameters as GlobalConfig;
+        this.globalVariables = {};
 
     }
     globalConfig: GlobalConfig;
+    globalVariables: GlobalVariables;
 
 
     screen!: Screen;

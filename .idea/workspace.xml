@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="automating text areas">
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on hidden and displayed text/e539f2252bd6ed5527ba9c80fe99d043.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/hidden-text.feature" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="automating text areas II">
+      <change afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-stored-value.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/stored.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on stored values/fb288ea9c2a3224cb820a3e5e5371538.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/sored-values.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-stored-value.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/step-definitions/stored.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/config/mappings/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/playground.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/env/common.env" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/env/common.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/world.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/setup/world.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on text ares/316fca9923bdb8ceff61a1be129d207d.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/features/playground/hidden-text.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/playground/hidden-text.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/features/playground/text-areas.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/playground/text-areas.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/setup/world.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/setup/world.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,15 +262,7 @@
       <workItem from="1712513049834" duration="32220000" />
       <workItem from="1712767064030" duration="3559000" />
       <workItem from="1713036200420" duration="3417000" />
-      <workItem from="1713174584301" duration="5514000" />
-    </task>
-    <task id="LOCAL-00003" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1711552974774</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1711552974774</updated>
+      <workItem from="1713174584301" duration="9247000" />
     </task>
     <task id="LOCAL-00004" summary="simple automation framework setup">
       <option name="closed" value="true" />
@@ -650,7 +648,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713186024060</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="automating text areas II">
+      <option name="closed" value="true" />
+      <created>1713186601056</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1713186601056</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -703,7 +709,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="automate radio buttons" />
     <MESSAGE value="automate radio buttons 2" />
     <MESSAGE value="introducing Negate to reduce duplication of step definitions" />
     <MESSAGE value="automating AutoComplete input and form validation" />
@@ -728,7 +733,8 @@
     <MESSAGE value="automating page alerts" />
     <MESSAGE value="automating tooltips" />
     <MESSAGE value="automating text areas" />
-    <option name="LAST_COMMIT_MESSAGE" value="automating text areas" />
+    <MESSAGE value="automating text areas II" />
+    <option name="LAST_COMMIT_MESSAGE" value="automating text areas II" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
