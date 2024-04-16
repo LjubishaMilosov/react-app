@@ -1,7 +1,7 @@
 Feature: As a user I can interact with stored cards
 
 
-@dev
+
   @smoke
   @regression
   Scenario: As a user I can interact and assert on cards
