@@ -1,0 +1,248 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-user-i-can-interact-with-drop-down-menus;as-a-user-i-can-interact-and-assert-on-drop-down-menus",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "As a user I can interact and assert on drop down menus",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 906276999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the \"home\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1710554299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click the \"playground\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 518487799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I am directed to the \"playground\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3947599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click the \"drop down button\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1342060900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the \"drop down profile\" should contain the text \"Profile\"",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13853700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the \"drop down my account\" should contain the text \"My account\"",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10305800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the \"drop down logout\" should contain the text \"Logout\"",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7310699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click the \"drop down profile\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 585594199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click the \"drop down button\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1030083899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click the \"drop down my account\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 389759700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click the \"drop down button\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 427261599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click the \"drop down logout\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 397081999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the \"drop down profile\" should not be displayed",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-visibility.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2049808000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the \"drop down my account\" should not be displayed",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-visibility.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10745999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the \"drop down logout\" should not be displayed",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-visibility.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5905899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 286931799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 4
+          },
+          {
+            "name": "@smoke",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user-i-can-interact-with-drop-down-menus",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a user I can interact with drop down menus",
+    "tags": [],
+    "uri": "src\\features\\playground\\drop-down-menus.feature"
+  }
+]
