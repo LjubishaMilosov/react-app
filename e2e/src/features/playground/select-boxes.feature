@@ -1,7 +1,7 @@
 Feature: As a user I can interact with select boxes
 
 
-@dev
+
   @smoke
   @regression
   Scenario: As a user I can interact and assert on select boxes
@@ -20,4 +20,3 @@ Feature: As a user I can interact with select boxes
 
 
 
-#./run_tests.bat dev
