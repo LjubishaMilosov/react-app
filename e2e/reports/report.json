@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "as-a-user-i-can-interact-with-drop-down-menus;as-a-user-i-can-interact-and-assert-on-drop-down-menus",
+        "id": "as-a-user-i-can-interact-with-select-boxes;as-a-user-i-can-interact-and-assert-on-select-boxes",
         "keyword": "Scenario",
         "line": 7,
-        "name": "As a user I can interact and assert on drop down menus",
+        "name": "As a user I can interact and assert on select boxes",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 906276999
+              "duration": 841227999
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1710554299
+              "duration": 1873819700
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 518487799
+              "duration": 492623900
             }
           },
           {
@@ -53,163 +53,85 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3947599
+              "duration": 5004800
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "I click the \"drop down button\" button",
+            "name": "I select the \"10\" option from the \"age\"",
             "match": {
-              "location": "src\\step-definitions\\click.ts:10"
+              "location": "src\\step-definitions\\form.ts:32"
             },
             "result": {
               "status": "passed",
-              "duration": 1342060900
+              "duration": 1229519500
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "the \"drop down profile\" should contain the text \"Profile\"",
+            "name": "the \"age\" should contain the value \"10\"",
             "match": {
-              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:10"
+              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 13853700
+              "duration": 43988199
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "the \"drop down my account\" should contain the text \"My account\"",
+            "name": "I select the \"20\" option from the \"age\"",
             "match": {
-              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:10"
+              "location": "src\\step-definitions\\form.ts:32"
             },
             "result": {
               "status": "passed",
-              "duration": 10305800
+              "duration": 106126000
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 14,
-            "name": "the \"drop down logout\" should contain the text \"Logout\"",
+            "name": "the \"age\" should contain the value \"20\"",
             "match": {
-              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:10"
+              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 7310699
+              "duration": 52349700
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "I click the \"drop down profile\" button",
+            "name": "I select the \"30\" option from the \"age\"",
             "match": {
-              "location": "src\\step-definitions\\click.ts:10"
+              "location": "src\\step-definitions\\form.ts:32"
             },
             "result": {
               "status": "passed",
-              "duration": 585594199
+              "duration": 68639499
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 16,
-            "name": "I click the \"drop down button\" button",
+            "name": "the \"age\" should contain the value \"30\"",
             "match": {
-              "location": "src\\step-definitions\\click.ts:10"
+              "location": "src\\step-definitions\\assertions\\verify-element-value.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 1030083899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "I click the \"drop down my account\" button",
-            "match": {
-              "location": "src\\step-definitions\\click.ts:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 389759700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "I click the \"drop down button\" button",
-            "match": {
-              "location": "src\\step-definitions\\click.ts:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 427261599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
-            "name": "I click the \"drop down logout\" button",
-            "match": {
-              "location": "src\\step-definitions\\click.ts:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 397081999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 20,
-            "name": "the \"drop down profile\" should not be displayed",
-            "match": {
-              "location": "src\\step-definitions\\assertions\\verify-element-visibility.ts:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2049808000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 21,
-            "name": "the \"drop down my account\" should not be displayed",
-            "match": {
-              "location": "src\\step-definitions\\assertions\\verify-element-visibility.ts:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10745999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "the \"drop down logout\" should not be displayed",
-            "match": {
-              "location": "src\\step-definitions\\assertions\\verify-element-visibility.ts:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5905899
+              "duration": 15663500
             }
           },
           {
@@ -217,7 +139,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 286931799
+              "duration": 489228100
             }
           }
         ],
@@ -238,11 +160,11 @@
         "type": "scenario"
       }
     ],
-    "id": "as-a-user-i-can-interact-with-drop-down-menus",
+    "id": "as-a-user-i-can-interact-with-select-boxes",
     "line": 1,
     "keyword": "Feature",
-    "name": "As a user I can interact with drop down menus",
+    "name": "As a user I can interact with select boxes",
     "tags": [],
-    "uri": "src\\features\\playground\\drop-down-menus.feature"
+    "uri": "src\\features\\playground\\select-boxes.feature"
   }
 ]

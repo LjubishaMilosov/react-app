@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="automate avatars">
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on drop down menus/e133b4d399bbadfe901964c14413467d.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/drop-down-menus.feature" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="automate drop down menus">
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on select boxes/fc064fe9446dcdf8764d64b896e5d7b8.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/select-boxes.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/config/mappings/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/playground.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on drop down menus/23f7feabf113825749e6678efd4bc4c7.webm" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,15 +256,7 @@
       <workItem from="1712767064030" duration="3559000" />
       <workItem from="1713036200420" duration="3417000" />
       <workItem from="1713174584301" duration="10712000" />
-      <workItem from="1713254646379" duration="5210000" />
-    </task>
-    <task id="LOCAL-00007" summary="video &amp; screenshots on failure">
-      <option name="closed" value="true" />
-      <created>1711572679894</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1711572679894</updated>
+      <workItem from="1713254646379" duration="5788000" />
     </task>
     <task id="LOCAL-00008" summary="cucumber world">
       <option name="closed" value="true" />
@@ -649,7 +642,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713259176268</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="automate drop down menus">
+      <option name="closed" value="true" />
+      <created>1713260308564</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1713260308564</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -702,7 +703,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="automating AutoComplete input and form validation 2" />
     <MESSAGE value="automating AutoComplete input and form validation 3" />
     <MESSAGE value="automating form validation" />
     <MESSAGE value="introduce parallel and retry capability" />
@@ -727,7 +727,8 @@
     <MESSAGE value="automate stored values" />
     <MESSAGE value="automate cards" />
     <MESSAGE value="automate avatars" />
-    <option name="LAST_COMMIT_MESSAGE" value="automate avatars" />
+    <MESSAGE value="automate drop down menus" />
+    <option name="LAST_COMMIT_MESSAGE" value="automate drop down menus" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
