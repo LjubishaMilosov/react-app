@@ -150,15 +150,19 @@ var getValue = exports.getValue = /*#__PURE__*/function () {
       while (1) switch (_context7.prev = _context7.next) {
         case 0:
           _context7.next = 2;
+          return page.waitForSelector(elementIdentifier);
+
+        case 2:
+          _context7.next = 4;
           return page.$eval(elementIdentifier, function (el) {
             return el.value;
           });
 
-        case 2:
+        case 4:
           value = _context7.sent;
           return _context7.abrupt("return", value);
 
-        case 4:
+        case 6:
         case "end":
           return _context7.stop();
       }
