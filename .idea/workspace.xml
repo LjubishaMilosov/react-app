@@ -4,21 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="refactor suite to run on production">
-      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on text ares/04a3c08f1fe4ce783ab7e156f5cb3c2d.webm" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="storing login details in env files">
+      <change afterPath="$PROJECT_DIR$/e2e/config/emails.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/dist/support/input-helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/env/localhost.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/env/production.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/After_4135.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/After_4424.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/After_5497.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/After_8349.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/After_8582.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/screenshots/As a user I can populate login details leveraging environment variables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can populate login details leveraging environment variables/08019bb9c4c79844f0e9ebc12248b86e.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/reports/videos/As a user I can populate login details leveraging environment variables/5b0d511bd21c933e389ad4add5b324fb.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/features/playground/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/step-definitions/scroll.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/src/support/input-helper.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/config/hosts.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/hosts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/config/mappings/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/config/mappings/playground.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-table-value.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-table-value.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-iframe.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-iframe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-new-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/assertions/verify-new-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/step-definitions/iframe.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/step-definitions/iframe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/dist/support/html-behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/support/html-behavior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/dist/support/wait-for-behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/dist/support/wait-for-behavior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/env/common.env" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/env/common.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/cucumber-html-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/reports/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/features/playground/buttons.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/playground/buttons.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/features/playground/tables.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/playground/tables.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/features/playground/text-areas.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/playground/text-areas.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/reports/videos/As a user I can interact and assert on text ares/04a3c08f1fe4ce783ab7e156f5cb3c2d.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/run_tests.bat" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/run_tests.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/env/global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/env/global.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/features/home-page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/home-page.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/features/playground/iframes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/playground/iframes.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-table-value.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-table-value.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-iframe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-iframe.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-new-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-new-page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/form.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/form.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/iframe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/iframe.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/src/support/html-behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/support/html-behavior.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/support/wait-for-behavior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/support/wait-for-behavior.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,35 +168,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JavaScript Debug.cucumber-html-report.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ljubisha/IdeaProjects/testing-talks-hub/react-app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "npm.cucumber --profile dev.executor": "Run",
-    "npm.cucumber --profile regression.executor": "Run",
-    "npm.cucumber --profile smoke.executor": "Run",
-    "npm.cucumber.executor": "Run",
-    "npm.cucumber:dev.executor": "Run",
-    "npm.cucumber:regression.executor": "Run",
-    "npm.cucumber:smoke.executor": "Run",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "ts.external.directory.path": "C:\\Users\\Ljubisha\\IdeaProjects\\testing-talks-hub\\react-app\\e2e\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JavaScript Debug.cucumber-html-report.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ljubisha/IdeaProjects/testing-talks-hub/react-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.cucumber --profile dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cucumber --profile regression.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cucumber --profile smoke.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cucumber.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cucumber:dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cucumber:regression.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cucumber:smoke.executor&quot;: &quot;Run&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Ljubisha\\IdeaProjects\\testing-talks-hub\\react-app\\e2e\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ljubisha\IdeaProjects\testing-talks-hub\react-app\e2e\src\step-definitions\assertions" />
@@ -263,15 +289,8 @@
       <workItem from="1712767064030" duration="3559000" />
       <workItem from="1713036200420" duration="3417000" />
       <workItem from="1713174584301" duration="10712000" />
-      <workItem from="1713254646379" duration="12864000" />
-    </task>
-    <task id="LOCAL-00010" summary="ENV file for env variable management">
-      <option name="closed" value="true" />
-      <created>1711714598999</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1711714598999</updated>
+      <workItem from="1713254646379" duration="16875000" />
+      <workItem from="1713356562313" duration="5061000" />
     </task>
     <task id="LOCAL-00011" summary="adding mappings for host urls and page routes">
       <option name="closed" value="true" />
@@ -657,7 +676,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713265946202</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="refactor suite to run on production">
+      <option name="closed" value="true" />
+      <created>1713272128151</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1713272128152</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -710,7 +737,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Automation test checkboxes" />
     <MESSAGE value="Automation test checkboxes part 2" />
     <MESSAGE value="Iframes" />
     <MESSAGE value="Iframes part 2" />
@@ -735,7 +761,8 @@
     <MESSAGE value="automate select boxes" />
     <MESSAGE value="automate refreshing page" />
     <MESSAGE value="refactor suite to run on production" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor suite to run on production" />
+    <MESSAGE value="storing login details in env files" />
+    <option name="LAST_COMMIT_MESSAGE" value="storing login details in env files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
