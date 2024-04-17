@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.uncheckElement = exports.selectValue = exports.inputValueOnPage = exports.inputValueOnIframe = exports.inputValue = exports.getValue = exports.getIframeElement = exports.getAttributeText = exports.clickElementAtIndex = exports.clickElement = exports.checkElement = void 0;
+exports.uncheckElement = exports.selectValue = exports.scrollIntoView = exports.inputValueOnPage = exports.inputValueOnIframe = exports.inputValue = exports.getValue = exports.getIframeElement = exports.getAttributeText = exports.clickElementAtIndex = exports.clickElement = exports.checkElement = void 0;
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -270,5 +270,27 @@ var getAttributeText = exports.getAttributeText = /*#__PURE__*/function () {
 
   return function getAttributeText(_x27, _x28, _x29) {
     return _ref11.apply(this, arguments);
+  };
+}();
+
+var scrollIntoView = exports.scrollIntoView = /*#__PURE__*/function () {
+  var _ref12 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee12(page, elementIdentifier) {
+    var element;
+    return regeneratorRuntime.wrap(function _callee12$(_context12) {
+      while (1) switch (_context12.prev = _context12.next) {
+        case 0:
+          element = page.locator(elementIdentifier);
+          _context12.next = 3;
+          return element.scrollIntoViewIfNeeded();
+
+        case 3:
+        case "end":
+          return _context12.stop();
+      }
+    }, _callee12);
+  }));
+
+  return function scrollIntoView(_x30, _x31) {
+    return _ref12.apply(this, arguments);
   };
 }();

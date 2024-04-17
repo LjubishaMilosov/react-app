@@ -14,7 +14,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 (0, _cucumber.Then)(/^the "([^"]*)" on the "([^"]*)" iframe should( not)? be displayed$/, /*#__PURE__*/function () {
   var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(elementKey, iframeName, negate) {
-    var page, globalConfig, elementIdentifier, iframeIdentifier, elementIframe;
+    var page, globalConfig, elementIdentifier, iframeIdentifier;
     return regeneratorRuntime.wrap(function _callee2$(_context2) {
       while (1) switch (_context2.prev = _context2.next) {
         case 0:
@@ -23,32 +23,32 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
           elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
           iframeIdentifier = (0, _webElementHelper.getElementLocator)(page, iframeName, globalConfig);
           _context2.next = 6;
-          return (0, _htmlBehavior.getIframeElement)(page, iframeIdentifier);
-
-        case 6:
-          elementIframe = _context2.sent;
-          _context2.next = 9;
           return (0, _waitForBehavior.waitFor)( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
-            var isElementVisible;
+            var elementIframe, isElementVisible;
             return regeneratorRuntime.wrap(function _callee$(_context) {
               while (1) switch (_context.prev = _context.next) {
                 case 0:
                   _context.next = 2;
-                  return elementIframe === null || elementIframe === void 0 ? void 0 : elementIframe.$(elementIdentifier);
+                  return (0, _htmlBehavior.getIframeElement)(page, iframeIdentifier);
 
                 case 2:
+                  elementIframe = _context.sent;
+                  _context.next = 5;
+                  return elementIframe === null || elementIframe === void 0 ? void 0 : elementIframe.$(elementIdentifier);
+
+                case 5:
                   _context.t0 = _context.sent;
                   isElementVisible = _context.t0 != null;
                   return _context.abrupt("return", isElementVisible === !negate);
 
-                case 5:
+                case 8:
                 case "end":
                   return _context.stop();
               }
             }, _callee);
           })));
 
-        case 9:
+        case 6:
         case "end":
           return _context2.stop();
       }
@@ -61,7 +61,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 }());
 (0, _cucumber.Then)(/^the "([^"]*)" on the "([^"]*)" iframe should( not)? contain the text "(.*)"$/, /*#__PURE__*/function () {
   var _ref3 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4(elementKey, iframeName, negate, expectedElementText) {
-    var page, globalConfig, elementIdentifier, iframeIdentifier, elementIframe;
+    var page, globalConfig, elementIdentifier, iframeIdentifier;
     return regeneratorRuntime.wrap(function _callee4$(_context4) {
       while (1) switch (_context4.prev = _context4.next) {
         case 0:
@@ -70,31 +70,31 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
           elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
           iframeIdentifier = (0, _webElementHelper.getElementLocator)(page, iframeName, globalConfig);
           _context4.next = 6;
-          return (0, _htmlBehavior.getIframeElement)(page, iframeIdentifier);
-
-        case 6:
-          elementIframe = _context4.sent;
-          _context4.next = 9;
           return (0, _waitForBehavior.waitFor)( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
-            var elementText;
+            var elementIframe, elementText;
             return regeneratorRuntime.wrap(function _callee3$(_context3) {
               while (1) switch (_context3.prev = _context3.next) {
                 case 0:
                   _context3.next = 2;
-                  return elementIframe === null || elementIframe === void 0 ? void 0 : elementIframe.textContent(elementIdentifier);
+                  return (0, _htmlBehavior.getIframeElement)(page, iframeIdentifier);
 
                 case 2:
+                  elementIframe = _context3.sent;
+                  _context3.next = 5;
+                  return elementIframe === null || elementIframe === void 0 ? void 0 : elementIframe.textContent(elementIdentifier);
+
+                case 5:
                   elementText = _context3.sent;
                   return _context3.abrupt("return", (elementText === null || elementText === void 0 ? void 0 : elementText.includes(expectedElementText)) === !negate);
 
-                case 4:
+                case 7:
                 case "end":
                   return _context3.stop();
               }
             }, _callee3);
           })));
 
-        case 9:
+        case 6:
         case "end":
           return _context4.stop();
       }
@@ -107,40 +107,40 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 }());
 (0, _cucumber.Then)(/^the "([^"]*)" on the "([^"]*)" iframe should( not)? equal the text "(.*)"$/, /*#__PURE__*/function () {
   var _ref5 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6(elementKey, iframeName, negate, expectedElementText) {
-    var page, globalConfig, elementIdentifier, iframeIdentifier, elementIframe;
+    var page, globalConfig, iframeIdentifier, elementIframe;
     return regeneratorRuntime.wrap(function _callee6$(_context6) {
       while (1) switch (_context6.prev = _context6.next) {
         case 0:
           page = this.screen.page, globalConfig = this.globalConfig;
           console.log("the ".concat(elementKey, " should ").concat(negate ? 'not ' : '', "equal the text ").concat(expectedElementText));
-          elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
           iframeIdentifier = (0, _webElementHelper.getElementLocator)(page, iframeName, globalConfig);
-          _context6.next = 6;
+          _context6.next = 5;
           return (0, _htmlBehavior.getIframeElement)(page, iframeIdentifier);
 
-        case 6:
+        case 5:
           elementIframe = _context6.sent;
-          _context6.next = 9;
+          _context6.next = 8;
           return (0, _waitForBehavior.waitFor)( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {
-            var elementText;
+            var elementIdentifier, elementText;
             return regeneratorRuntime.wrap(function _callee5$(_context5) {
               while (1) switch (_context5.prev = _context5.next) {
                 case 0:
-                  _context5.next = 2;
+                  elementIdentifier = (0, _webElementHelper.getElementLocator)(page, elementKey, globalConfig);
+                  _context5.next = 3;
                   return elementIframe === null || elementIframe === void 0 ? void 0 : elementIframe.textContent(elementIdentifier);
 
-                case 2:
+                case 3:
                   elementText = _context5.sent;
                   return _context5.abrupt("return", elementText === expectedElementText === !negate);
 
-                case 4:
+                case 5:
                 case "end":
                   return _context5.stop();
               }
             }, _callee5);
           })));
 
-        case 9:
+        case 8:
         case "end":
           return _context6.stop();
       }
